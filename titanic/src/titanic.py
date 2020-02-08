@@ -1,6 +1,16 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import export_graphviz
+from sklearn import metrics
+import matplotlib.pyplot as plt
+import seaborn as sns
+from subprocess import call
+from IPython.display import Image
+import warnings
+warnings.filterwarnings('ignore')
 
 def identify_blanks(df):
     t = len(df)
@@ -58,3 +68,35 @@ def append_one_hot(df, col):
     temp_df.drop(col + ' ', axis=1, inplace=True)
     df = df.join(temp_df)
     return df
+
+def quick_random_forest(df, y_col):
+    x_col = list(df.columns)
+    x_col.remove(y_col)
+    X = df[x_col]
+    y = df[[y_col]]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .25)
+
+    clf = RandomForestClassifier()
+    clf.fit(X_train, y_train)
+    y_pred = clf.predict(X_test)
+
+    print("Test Holdout Accuracy:  ", metrics.accuracy_score(y_test, y_pred))
+    print("Test Holdout Recall:    ", metrics.recall_score(y_test, y_pred))
+    print("Test Holdout Precision: ", metrics.precision_score(y_test, y_pred))
+    print("Test Holdout F1:        ", metrics.f1_score(y_test, y_pred))
+    print('\n')
+
+    feature_imp = pd.Series(clf.feature_importances_,index=x_col).sort_values(ascending=False)
+    sns.barplot(x=feature_imp, y=feature_imp.index)
+    plt.xlabel('Feature Importance Score')
+    plt.ylabel('Features')
+    plt.title("Feature Weight in Model")
+    plt.show()
+    print('\n')
+
+    y_actu = pd.Series(y_test[y_col].tolist(), name='Actual')
+    y_predict = pd.Series(y_pred.tolist(), name='Predicted')
+    df_confusion = pd.crosstab(y_actu, y_predict)
+    print('\n',df_confusion)
+    return clf
