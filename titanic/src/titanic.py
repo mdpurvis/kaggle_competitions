@@ -52,7 +52,7 @@ def append_one_hot(df, col):
     ohe = OneHotEncoder(sparse = False, dtype = int, handle_unknown = 'ignore')
     data = ohe.fit_transform(df[['Embarked']])
 
-    col_names = [col + ' ' + val for val in list(ohe.categories_)]
+    col_names = [col + ' ' + val for val in list(ohe.categories_)[0]]
 
     temp_df = pd.DataFrame(data, columns = col_names, index = df.index)
     temp_df.drop(col + ' ', axis=1, inplace=True)
