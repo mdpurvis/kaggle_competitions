@@ -77,7 +77,7 @@ def quick_random_forest(df, y_col):
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .25)
 
-    clf = RandomForestClassifier()
+    clf = RandomForestClassifier(random_state = 32)
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
 
@@ -100,3 +100,18 @@ def quick_random_forest(df, y_col):
     df_confusion = pd.crosstab(y_actu, y_predict)
     print('\n',df_confusion)
     return clf
+
+def fill_na_by_group(df, col_w_na, col_group_by):
+    #pass a single categorical value column or pass a list of one hot encoded columns
+    if (type(col_group_by) == list)|(type(col_group_by) == np.ndarray):
+        for each in col_group_by:
+            avg_val = df.loc[df[each] == 1, col_w_na].mean()
+            print(f'Filling missing values for {each} with mean of {avg_val}')
+            df.loc[(df[each] == 1)&(df[col_w_na].isnull()), col_w_na] = avg_val
+    else:
+        value_list = df[col_group_by].unique()
+        for each in value_list:
+            avg_val = df.loc[df[col_group_by] == each, col_w_na].mean()
+            print(f'Filling missing values for {each} in {col_group_by} with mean of {avg_val}')
+            df.loc[(df[col_group_by] == each)&(df[col_w_na].isnull()), col_w_na] = avg_val
+    return df
