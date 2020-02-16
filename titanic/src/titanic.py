@@ -3,12 +3,11 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import export_graphviz
+
 from sklearn import metrics
 import matplotlib.pyplot as plt
 import seaborn as sns
-from subprocess import call
-from IPython.display import Image
+
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -58,9 +57,9 @@ def split_cabin(df):
     return df
 
 def append_one_hot(df, col):
-    df['Embarked'] = df['Embarked'].fillna('')
+    df[col] = df[col].fillna('')
     ohe = OneHotEncoder(sparse = False, dtype = int, handle_unknown = 'ignore')
-    data = ohe.fit_transform(df[['Embarked']])
+    data = ohe.fit_transform(df[[col]])
 
     col_names = [col + ' ' + val for val in list(ohe.categories_)[0]]
 
@@ -69,25 +68,14 @@ def append_one_hot(df, col):
     df = df.join(temp_df)
     return df
 
-def quick_random_forest(df, y_col):
-    x_col = list(df.columns)
-    x_col.remove(y_col)
-    X = df[x_col]
-    y = df[[y_col]]
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .25)
-
-    clf = RandomForestClassifier(random_state = 32)
-    clf.fit(X_train, y_train)
-    y_pred = clf.predict(X_test)
-
+def rf_stats_and_features(clf, y_test, y_pred, x_col, y_col):
     print("Test Holdout Accuracy:  ", metrics.accuracy_score(y_test, y_pred))
     print("Test Holdout Recall:    ", metrics.recall_score(y_test, y_pred))
     print("Test Holdout Precision: ", metrics.precision_score(y_test, y_pred))
     print("Test Holdout F1:        ", metrics.f1_score(y_test, y_pred))
     print('\n')
 
-    feature_imp = pd.Series(clf.feature_importances_,index=x_col).sort_values(ascending=False)
+    feature_imp = pd.Series(clf.feature_importances_, index=x_col).sort_values(ascending=False)
     sns.barplot(x=feature_imp, y=feature_imp.index)
     plt.xlabel('Feature Importance Score')
     plt.ylabel('Features')
@@ -98,8 +86,25 @@ def quick_random_forest(df, y_col):
     y_actu = pd.Series(y_test[y_col].tolist(), name='Actual')
     y_predict = pd.Series(y_pred.tolist(), name='Predicted')
     df_confusion = pd.crosstab(y_actu, y_predict)
-    print('\n',df_confusion)
+    print('\n', df_confusion)
+
+
+def quick_random_forest(df, y_col):
+    x_col = list(df.columns)
+    x_col.remove(y_col)
+    X = df[x_col]
+    y = df[[y_col]]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .25, random_state = 32)
+
+    clf = RandomForestClassifier(random_state = 32)
+    clf.fit(X_train, y_train)
+    y_pred = clf.predict(X_test)
+
+    rf_stats_and_features(clf, y_test, y_pred, x_col, y_col)
+
     return clf
+
 
 def fill_na_by_group(df, col_w_na, col_group_by):
     #pass a single categorical value column or pass a list of one hot encoded columns
