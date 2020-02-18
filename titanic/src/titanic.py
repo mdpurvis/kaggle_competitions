@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-
+from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -120,3 +120,4 @@ def fill_na_by_group(df, col_w_na, col_group_by):
             print(f'Filling missing values for {each} in {col_group_by} with mean of {avg_val}')
             df.loc[(df[col_group_by] == each)&(df[col_w_na].isnull()), col_w_na] = avg_val
     return df
+
