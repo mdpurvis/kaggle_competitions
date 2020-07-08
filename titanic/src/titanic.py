@@ -16,7 +16,7 @@ def identify_blanks(df):
     for each in df.columns:
         i = len(df.loc[df[each].isnull()])
         pct = int((i/t)*100)
-        print(f'column {each} has {i} missing values.  {pct}%')
+        print(f'Column {each} has {i} missing values out of {t}.  {pct}%')
 
 def one_hot_age_gender(df):
     df['Boy'] = 0
