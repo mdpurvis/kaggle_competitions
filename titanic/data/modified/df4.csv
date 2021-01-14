@@ -1,0 +1,1310 @@
+,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,Label,Survived,Total,Prefix,Age_Bins,Fare_Bins
+0,1,female,39.0,0,0,108.9,C,test,,0,Dona,female_under_50,Greater than or equal to $50
+1,1,female,49.0,0,0,25.9292,S,train,1,0,Dr,female_under_50,Less than $50
+2,1,female,48.0,1,0,39.6,C,train,1,0,Lady,female_under_50,Less than $50
+3,1,female,22.0,0,1,61.9792,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+4,1,female,28.0,3,2,263.0,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+5,1,female,36.0,0,0,262.375,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+6,1,female,35.0,0,0,211.5,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+7,1,female,36.0,0,0,31.6792,C,test,,0,Miss,female_under_50,Less than $50
+8,1,female,33.0,0,0,151.55,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+9,1,female,29.0,0,0,221.7792,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+10,1,female,33.0,0,0,27.7208,C,test,,0,Miss,female_under_50,Less than $50
+11,1,female,21.0,0,0,26.55,S,test,,0,Miss,female_under_50,Less than $50
+12,1,female,39.0,0,0,211.3375,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+13,1,female,31.0,0,0,134.5,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+14,1,female,45.0,0,0,262.375,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+15,1,female,30.0,0,0,164.8667,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+16,1,female,22.0,0,1,59.4,C,test,,0,Miss,female_under_50,Greater than or equal to $50
+17,1,female,58.0,0,0,26.55,S,train,1,0,Miss,female_over_50,Less than $50
+18,1,female,38.0,0,0,80.0,,train,1,0,Miss,female_under_50,Greater than or equal to $50
+19,1,female,23.0,3,2,263.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+20,1,female,19.0,0,2,26.2833,S,train,1,0,Miss,female_under_50,Less than $50
+21,1,female,50.0,0,0,28.7125,C,train,0,0,Miss,female_over_50,Less than $50
+22,1,female,58.0,0,0,146.5208,C,train,1,0,Miss,female_over_50,Greater than or equal to $50
+23,1,female,31.0,1,0,113.275,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+24,1,female,32.0,0,0,76.2917,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+25,1,female,30.0,0,0,86.5,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+26,1,female,35.0,0,0,512.3292,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+27,1,female,35.0,0,0,135.6333,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+28,1,female,63.0,1,0,77.9583,S,train,1,0,Miss,female_over_50,Greater than or equal to $50
+29,1,female,26.0,0,0,78.85,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+30,1,female,2.0,1,2,151.55,S,train,0,0,Miss,female_under_50,Greater than or equal to $50
+31,1,female,30.338983050847457,0,0,110.8833,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+32,1,female,30.0,0,0,56.9292,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+33,1,female,24.0,0,0,83.1583,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+34,1,female,18.0,2,2,262.375,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+35,1,female,31.0,0,2,164.8667,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+36,1,female,36.0,0,0,135.6333,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+37,1,female,16.0,0,1,57.9792,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+38,1,female,41.0,0,0,134.5,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+39,1,female,24.0,3,2,263.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+40,1,female,22.0,0,1,55.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+41,1,female,42.0,0,0,227.525,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+42,1,female,23.0,1,0,113.275,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+43,1,female,33.0,1,0,90.0,Q,train,1,0,Miss,female_under_50,Greater than or equal to $50
+44,1,female,14.0,1,2,120.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+45,1,female,54.0,1,0,78.2667,C,train,1,0,Miss,female_over_50,Greater than or equal to $50
+46,1,female,16.0,0,0,86.5,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+47,1,female,30.0,0,0,93.5,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+48,1,female,30.0,0,0,106.425,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+49,1,female,22.0,0,2,49.5,C,train,1,0,Miss,female_under_50,Less than $50
+50,1,female,36.0,0,2,71.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+51,1,female,18.0,0,2,79.65,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+52,1,female,40.0,0,0,153.4625,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+53,1,female,21.0,0,0,77.9583,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+54,1,female,15.0,0,1,211.3375,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+55,1,female,22.0,0,0,151.55,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+56,1,female,38.0,0,0,227.525,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+57,1,female,29.0,0,0,211.3375,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+58,1,female,21.0,2,2,262.375,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+59,1,female,39.0,1,1,83.1583,C,train,1,0,Miss,female_under_50,Greater than or equal to $50
+60,1,female,30.0,0,0,31.0,C,train,1,0,Miss,female_under_50,Less than $50
+61,1,female,16.0,0,1,39.4,S,train,1,0,Miss,female_under_50,Less than $50
+62,1,female,19.0,0,0,30.0,S,train,1,0,Miss,female_under_50,Less than $50
+63,2,female,20.0,2,1,23.0,S,test,,0,Miss,female_under_50,Less than $50
+64,2,female,12.0,0,0,15.75,S,test,,0,Miss,female_under_50,Less than $50
+65,2,female,26.0,0,0,13.5,S,test,,0,Miss,female_under_50,Less than $50
+66,2,female,15.0,0,2,39.0,S,test,,0,Miss,female_under_50,Less than $50
+67,2,female,20.0,0,0,36.75,S,test,,0,Miss,female_under_50,Less than $50
+68,2,female,21.0,0,1,21.0,S,test,,0,Miss,female_under_50,Less than $50
+69,2,female,8.0,1,1,26.0,S,test,,0,Miss,female_under_50,Less than $50
+70,2,female,30.0,1,0,13.8583,C,test,,0,Miss,female_under_50,Less than $50
+71,2,female,18.0,1,1,13.0,S,test,,0,Miss,female_under_50,Less than $50
+72,2,female,0.92,1,2,27.75,S,test,,0,Miss,female_under_50,Less than $50
+73,2,female,19.0,0,0,13.0,S,test,,0,Miss,female_under_50,Less than $50
+74,2,female,20.0,1,0,26.0,S,test,,0,Miss,female_under_50,Less than $50
+75,2,female,1.0,1,2,41.5792,C,test,,0,Miss,female_under_50,Less than $50
+76,2,female,12.0,2,1,39.0,S,test,,0,Miss,female_under_50,Less than $50
+77,2,female,31.0,0,0,21.0,S,test,,0,Miss,female_under_50,Less than $50
+78,2,female,24.0,1,2,65.0,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+79,2,female,3.0,1,2,41.5792,C,train,1,0,Miss,female_under_50,Less than $50
+80,2,female,21.0,0,0,10.5,S,train,1,0,Miss,female_under_50,Less than $50
+81,2,female,5.0,1,2,27.75,S,train,1,0,Miss,female_under_50,Less than $50
+82,2,female,17.0,0,0,10.5,S,train,1,0,Miss,female_under_50,Less than $50
+83,2,female,32.5,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+84,2,female,24.0,0,0,13.0,S,train,0,0,Miss,female_under_50,Less than $50
+85,2,female,35.0,0,0,21.0,S,train,1,0,Miss,female_under_50,Less than $50
+86,2,female,8.0,0,2,26.25,S,train,1,0,Miss,female_under_50,Less than $50
+87,2,female,20.71708333333333,0,0,12.35,Q,train,1,0,Miss,female_under_50,Less than $50
+88,2,female,30.0,0,0,12.35,Q,train,1,0,Miss,female_under_50,Less than $50
+89,2,female,24.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+90,2,female,40.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+91,2,female,38.0,0,0,13.0,S,train,0,0,Miss,female_under_50,Less than $50
+92,2,female,36.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+93,2,female,17.0,0,0,12.0,C,train,1,0,Miss,female_under_50,Less than $50
+94,2,female,18.0,0,2,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+95,2,female,19.0,0,0,26.0,S,train,1,0,Miss,female_under_50,Less than $50
+96,2,female,13.0,0,1,19.5,S,train,1,0,Miss,female_under_50,Less than $50
+97,2,female,50.0,0,0,10.5,S,train,1,0,Miss,female_over_50,Less than $50
+98,2,female,50.0,0,0,10.5,S,train,1,0,Miss,female_over_50,Less than $50
+99,2,female,2.0,1,1,26.0,S,train,1,0,Miss,female_under_50,Less than $50
+100,2,female,7.0,0,2,26.25,S,train,1,0,Miss,female_under_50,Less than $50
+101,2,female,34.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+102,2,female,25.0,1,1,30.0,S,train,1,0,Miss,female_under_50,Less than $50
+103,2,female,20.71708333333333,0,0,33.0,S,train,1,0,Miss,female_under_50,Less than $50
+104,2,female,24.0,1,2,65.0,S,train,1,0,Miss,female_under_50,Greater than or equal to $50
+105,2,female,4.0,2,1,39.0,S,train,1,0,Miss,female_under_50,Less than $50
+106,2,female,28.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+107,2,female,18.0,0,1,23.0,S,train,1,0,Miss,female_under_50,Less than $50
+108,2,female,27.0,0,0,10.5,S,train,1,0,Miss,female_under_50,Less than $50
+109,2,female,6.0,0,1,33.0,S,train,1,0,Miss,female_under_50,Less than $50
+110,2,female,30.0,0,0,13.0,S,train,1,0,Miss,female_under_50,Less than $50
+111,2,female,4.0,1,1,23.0,S,train,1,0,Miss,female_under_50,Less than $50
+112,2,female,27.0,1,0,13.8583,C,train,1,0,Miss,female_under_50,Less than $50
+113,3,female,30.0,0,0,7.6292,Q,test,,0,Miss,female_under_50,Less than $50
+114,3,female,27.0,1,0,7.925,S,test,,0,Miss,female_under_50,Less than $50
+115,3,female,17.36087378640777,0,0,8.05,S,test,,0,Miss,female_under_50,Less than $50
+116,3,female,21.0,0,0,8.6625,S,test,,0,Miss,female_under_50,Less than $50
+117,3,female,22.0,0,0,7.725,Q,test,,0,Miss,female_under_50,Less than $50
+118,3,female,18.0,0,0,7.8792,Q,test,,0,Miss,female_under_50,Less than $50
+119,3,female,24.0,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+120,3,female,29.0,0,0,7.925,S,test,,0,Miss,female_under_50,Less than $50
+121,3,female,24.0,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+122,3,female,27.0,0,0,7.8792,Q,test,,0,Miss,female_under_50,Less than $50
+123,3,female,18.0,0,0,8.05,S,test,,0,Miss,female_under_50,Less than $50
+124,3,female,20.0,0,0,7.8542,S,test,,0,Miss,female_under_50,Less than $50
+125,3,female,17.36087378640777,0,0,7.7792,Q,test,,0,Miss,female_under_50,Less than $50
+126,3,female,18.5,0,0,7.2833,Q,test,,0,Miss,female_under_50,Less than $50
+127,3,female,1.0,1,1,16.7,S,test,,0,Miss,female_under_50,Less than $50
+128,3,female,17.0,0,1,16.1,S,test,,0,Miss,female_under_50,Less than $50
+129,3,female,17.36087378640777,2,0,23.25,Q,test,,0,Miss,female_under_50,Less than $50
+130,3,female,23.0,0,0,8.05,S,test,,0,Miss,female_under_50,Less than $50
+131,3,female,10.0,5,2,46.9,S,test,,0,Miss,female_under_50,Less than $50
+132,3,female,23.0,0,0,7.8542,S,test,,0,Miss,female_under_50,Less than $50
+133,3,female,17.36087378640777,0,0,7.7333,Q,test,,0,Miss,female_under_50,Less than $50
+134,3,female,22.0,0,0,8.9625,S,test,,0,Miss,female_under_50,Less than $50
+135,3,female,17.36087378640777,8,2,69.55,S,test,,0,Miss,female_under_50,Greater than or equal to $50
+136,3,female,18.0,0,0,7.775,S,test,,0,Miss,female_under_50,Less than $50
+137,3,female,17.36087378640777,0,0,15.5,Q,test,,0,Miss,female_under_50,Less than $50
+138,3,female,35.0,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+139,3,female,38.0,4,2,7.775,S,test,,0,Miss,female_under_50,Less than $50
+140,3,female,17.36087378640777,0,0,7.8792,Q,test,,0,Miss,female_under_50,Less than $50
+141,3,female,17.36087378640777,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+142,3,female,1.0,1,1,12.1833,S,test,,0,Miss,female_under_50,Less than $50
+143,3,female,17.36087378640777,0,0,8.05,S,test,,0,Miss,female_under_50,Less than $50
+144,3,female,17.36087378640777,1,0,15.5,Q,test,,0,Miss,female_under_50,Less than $50
+145,3,female,23.0,0,0,8.6625,S,test,,0,Miss,female_under_50,Less than $50
+146,3,female,17.36087378640777,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+147,3,female,9.0,1,1,15.2458,C,test,,0,Miss,female_under_50,Less than $50
+148,3,female,2.0,1,1,20.2125,S,test,,0,Miss,female_under_50,Less than $50
+149,3,female,30.0,0,0,6.95,Q,test,,0,Miss,female_under_50,Less than $50
+150,3,female,17.36087378640777,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+151,3,female,37.0,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+152,3,female,17.0,0,0,7.7333,Q,test,,0,Miss,female_under_50,Less than $50
+153,3,female,16.0,0,0,7.65,S,test,,0,Miss,female_under_50,Less than $50
+154,3,female,0.17,1,2,20.575,S,test,,0,Miss,female_under_50,Less than $50
+155,3,female,22.0,0,0,39.6875,S,test,,0,Miss,female_under_50,Less than $50
+156,3,female,22.0,2,0,8.6625,S,test,,0,Miss,female_under_50,Less than $50
+157,3,female,17.36087378640777,0,0,7.7208,Q,test,,0,Miss,female_under_50,Less than $50
+158,3,female,3.0,1,1,13.775,S,test,,0,Miss,female_under_50,Less than $50
+159,3,female,17.36087378640777,0,0,7.75,Q,test,,0,Miss,female_under_50,Less than $50
+160,3,female,28.0,0,0,7.775,S,test,,0,Miss,female_under_50,Less than $50
+161,3,female,26.0,0,0,7.925,S,train,1,0,Miss,female_under_50,Less than $50
+162,3,female,4.0,1,1,16.7,S,train,1,0,Miss,female_under_50,Less than $50
+163,3,female,14.0,0,0,7.8542,S,train,0,0,Miss,female_under_50,Less than $50
+164,3,female,15.0,0,0,8.0292,Q,train,1,0,Miss,female_under_50,Less than $50
+165,3,female,8.0,3,1,21.075,S,train,0,0,Miss,female_under_50,Less than $50
+166,3,female,17.36087378640777,0,0,7.8792,Q,train,1,0,Miss,female_under_50,Less than $50
+167,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+168,3,female,18.0,2,0,18.0,S,train,0,0,Miss,female_under_50,Less than $50
+169,3,female,14.0,1,0,11.2417,C,train,1,0,Miss,female_under_50,Less than $50
+170,3,female,19.0,0,0,7.8792,Q,train,1,0,Miss,female_under_50,Less than $50
+171,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+172,3,female,17.0,4,2,7.925,S,train,1,0,Miss,female_under_50,Less than $50
+173,3,female,16.0,5,2,46.9,S,train,0,0,Miss,female_under_50,Less than $50
+174,3,female,30.0,0,0,12.475,S,train,1,0,Miss,female_under_50,Less than $50
+175,3,female,17.36087378640777,0,0,7.7875,Q,train,1,0,Miss,female_under_50,Less than $50
+176,3,female,28.0,0,0,7.8958,S,train,0,0,Miss,female_under_50,Less than $50
+177,3,female,21.0,0,0,7.65,S,train,1,0,Miss,female_under_50,Less than $50
+178,3,female,17.36087378640777,1,0,24.15,Q,train,1,0,Miss,female_under_50,Less than $50
+179,3,female,14.5,1,0,14.4542,C,train,0,0,Miss,female_under_50,Less than $50
+180,3,female,20.0,1,0,9.825,S,train,0,0,Miss,female_under_50,Less than $50
+181,3,female,17.0,0,0,14.4583,C,train,0,0,Miss,female_under_50,Less than $50
+182,3,female,2.0,4,2,31.275,S,train,0,0,Miss,female_under_50,Less than $50
+183,3,female,17.36087378640777,1,1,22.3583,C,train,1,0,Miss,female_under_50,Less than $50
+184,3,female,22.0,0,0,7.75,S,train,1,0,Miss,female_under_50,Less than $50
+185,3,female,9.0,2,2,34.375,S,train,0,0,Miss,female_under_50,Less than $50
+186,3,female,16.0,0,0,7.7333,Q,train,1,0,Miss,female_under_50,Less than $50
+187,3,female,1.0,1,1,11.1333,S,train,1,0,Miss,female_under_50,Less than $50
+188,3,female,17.36087378640777,8,2,69.55,S,train,0,0,Miss,female_under_50,Greater than or equal to $50
+189,3,female,4.0,0,2,22.025,S,train,1,0,Miss,female_under_50,Less than $50
+190,3,female,19.0,1,0,7.8542,S,train,1,0,Miss,female_under_50,Less than $50
+191,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+192,3,female,2.0,0,1,10.4625,S,train,0,0,Miss,female_under_50,Less than $50
+193,3,female,16.0,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+194,3,female,27.0,0,0,7.925,S,train,1,0,Miss,female_under_50,Less than $50
+195,3,female,17.36087378640777,3,1,25.4667,S,train,0,0,Miss,female_under_50,Less than $50
+196,3,female,5.0,4,2,31.3875,S,train,1,0,Miss,female_under_50,Less than $50
+197,3,female,17.36087378640777,0,0,7.55,S,train,0,0,Miss,female_under_50,Less than $50
+198,3,female,17.36087378640777,1,0,14.4542,C,train,0,0,Miss,female_under_50,Less than $50
+199,3,female,17.36087378640777,1,0,15.5,Q,train,1,0,Miss,female_under_50,Less than $50
+200,3,female,25.0,0,0,7.775,S,train,0,0,Miss,female_under_50,Less than $50
+201,3,female,17.36087378640777,0,0,7.75,Q,train,0,0,Miss,female_under_50,Less than $50
+202,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+203,3,female,45.0,0,0,7.75,S,train,0,0,Miss,female_under_50,Less than $50
+204,3,female,22.0,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+205,3,female,24.0,0,0,8.85,S,train,0,0,Miss,female_under_50,Less than $50
+206,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+207,3,female,26.0,0,0,7.8542,S,train,1,0,Miss,female_under_50,Less than $50
+208,3,female,17.36087378640777,2,0,23.25,Q,train,1,0,Miss,female_under_50,Less than $50
+209,3,female,17.36087378640777,0,0,7.8792,Q,train,1,0,Miss,female_under_50,Less than $50
+210,3,female,17.36087378640777,0,0,7.8792,Q,train,1,0,Miss,female_under_50,Less than $50
+211,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+212,3,female,3.0,3,1,21.075,S,train,0,0,Miss,female_under_50,Less than $50
+213,3,female,22.0,0,0,7.25,S,train,1,0,Miss,female_under_50,Less than $50
+214,3,female,1.0,0,2,15.7417,C,train,1,0,Miss,female_under_50,Less than $50
+215,3,female,31.0,0,0,7.8542,S,train,0,0,Miss,female_under_50,Less than $50
+216,3,female,21.0,1,0,9.825,S,train,0,0,Miss,female_under_50,Less than $50
+217,3,female,20.0,0,0,8.6625,S,train,0,0,Miss,female_under_50,Less than $50
+218,3,female,17.36087378640777,3,1,25.4667,S,train,0,0,Miss,female_under_50,Less than $50
+219,3,female,10.0,0,2,24.15,S,train,0,0,Miss,female_under_50,Less than $50
+220,3,female,21.0,2,2,34.375,S,train,0,0,Miss,female_under_50,Less than $50
+221,3,female,5.0,2,1,19.2583,C,train,1,0,Miss,female_under_50,Less than $50
+222,3,female,0.75,2,1,19.2583,C,train,1,0,Miss,female_under_50,Less than $50
+223,3,female,22.0,0,0,9.8375,S,train,0,0,Miss,female_under_50,Less than $50
+224,3,female,2.0,0,1,12.2875,S,train,1,0,Miss,female_under_50,Less than $50
+225,3,female,17.36087378640777,3,1,25.4667,S,train,0,0,Miss,female_under_50,Less than $50
+226,3,female,21.0,0,0,7.75,Q,train,0,0,Miss,female_under_50,Less than $50
+227,3,female,17.36087378640777,0,0,7.6292,Q,train,0,0,Miss,female_under_50,Less than $50
+228,3,female,37.0,0,0,9.5875,S,train,0,0,Miss,female_under_50,Less than $50
+229,3,female,30.0,0,0,8.6625,S,train,0,0,Miss,female_under_50,Less than $50
+230,3,female,9.0,4,2,31.275,S,train,0,0,Miss,female_under_50,Less than $50
+231,3,female,11.0,4,2,31.275,S,train,0,0,Miss,female_under_50,Less than $50
+232,3,female,22.0,0,0,7.775,S,train,1,0,Miss,female_under_50,Less than $50
+233,3,female,17.36087378640777,0,0,8.05,S,train,0,0,Miss,female_under_50,Less than $50
+234,3,female,17.36087378640777,0,0,7.75,Q,train,1,0,Miss,female_under_50,Less than $50
+235,3,female,17.36087378640777,0,2,7.75,Q,train,0,0,Miss,female_under_50,Less than $50
+236,3,female,17.36087378640777,1,0,15.5,Q,train,1,0,Miss,female_under_50,Less than $50
+237,3,female,9.0,3,2,27.9,S,train,0,0,Miss,female_under_50,Less than $50
+238,3,female,2.0,3,2,27.9,S,train,0,0,Miss,female_under_50,Less than $50
+239,3,female,0.75,2,1,19.2583,C,train,1,0,Miss,female_under_50,Less than $50
+240,3,female,23.0,0,0,7.55,S,train,1,0,Miss,female_under_50,Less than $50
+241,3,female,17.36087378640777,0,0,7.8292,Q,train,1,0,Miss,female_under_50,Less than $50
+242,3,female,18.0,0,0,6.75,Q,train,0,0,Miss,female_under_50,Less than $50
+243,3,female,18.0,0,0,9.8417,S,train,1,0,Miss,female_under_50,Less than $50
+244,3,female,17.36087378640777,0,0,8.1375,Q,train,0,0,Miss,female_under_50,Less than $50
+245,3,female,4.0,0,1,13.4167,C,train,1,0,Miss,female_under_50,Less than $50
+246,3,female,17.36087378640777,0,0,7.7333,Q,train,1,0,Miss,female_under_50,Less than $50
+247,3,female,18.0,0,1,14.4542,C,train,0,0,Miss,female_under_50,Less than $50
+248,3,female,17.36087378640777,0,0,7.7375,Q,train,1,0,Miss,female_under_50,Less than $50
+249,3,female,25.0,1,0,7.925,S,train,0,0,Miss,female_under_50,Less than $50
+250,3,female,30.5,0,0,7.75,Q,train,0,0,Miss,female_under_50,Less than $50
+251,3,female,5.0,0,0,12.475,S,train,1,0,Miss,female_under_50,Less than $50
+252,3,female,13.0,0,0,7.2292,C,train,1,0,Miss,female_under_50,Less than $50
+253,3,female,18.0,0,0,7.4958,S,train,1,0,Miss,female_under_50,Less than $50
+254,3,female,17.36087378640777,8,2,69.55,S,train,0,0,Miss,female_under_50,Greater than or equal to $50
+255,3,female,18.0,0,0,7.775,S,train,0,0,Miss,female_under_50,Less than $50
+256,3,female,6.0,4,2,31.275,S,train,0,0,Miss,female_under_50,Less than $50
+257,3,female,23.0,0,0,7.925,S,train,0,0,Miss,female_under_50,Less than $50
+258,3,female,9.0,1,1,15.2458,C,train,0,0,Miss,female_under_50,Less than $50
+259,3,female,17.36087378640777,8,2,69.55,S,train,0,0,Miss,female_under_50,Greater than or equal to $50
+260,3,female,15.0,0,0,7.225,C,train,1,0,Miss,female_under_50,Less than $50
+261,3,female,22.0,0,0,10.5167,S,train,0,0,Miss,female_under_50,Less than $50
+262,3,female,17.36087378640777,1,2,23.45,S,train,0,0,Miss,female_under_50,Less than $50
+263,1,female,24.0,0,0,69.3,C,train,1,0,Mlle,female_under_50,Greater than or equal to $50
+264,1,female,24.0,0,0,49.5042,C,train,1,0,Mlle,female_under_50,Less than $50
+265,1,female,24.0,0,0,69.3,C,train,1,0,Mme,female_under_50,Greater than or equal to $50
+266,1,female,23.0,1,0,82.2667,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+267,1,female,47.0,1,0,61.175,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+268,1,female,43.208955223880594,0,0,31.6833,S,test,,0,Mrs,female_under_50,Less than $50
+269,1,female,48.0,1,3,262.375,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+270,1,female,45.0,1,0,52.5542,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+271,1,female,60.0,0,0,76.2917,C,test,,0,Mrs,female_over_50,Greater than or equal to $50
+272,1,female,60.0,1,4,263.0,S,test,,0,Mrs,female_over_50,Greater than or equal to $50
+273,1,female,55.0,2,0,25.7,S,test,,0,Mrs,female_over_50,Less than $50
+274,1,female,27.0,1,2,52.0,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+275,1,female,76.0,1,0,78.85,S,test,,0,Mrs,female_over_50,Greater than or equal to $50
+276,1,female,43.0,1,0,55.4417,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+277,1,female,63.0,1,0,221.7792,S,test,,0,Mrs,female_over_50,Greater than or equal to $50
+278,1,female,35.0,1,0,57.75,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+279,1,female,23.0,0,1,83.1583,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+280,1,female,43.208955223880594,0,0,27.7208,C,test,,0,Mrs,female_under_50,Less than $50
+281,1,female,64.0,0,2,83.1583,C,test,,0,Mrs,female_over_50,Greater than or equal to $50
+282,1,female,18.0,1,0,53.1,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+283,1,female,27.0,1,1,247.5208,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+284,1,female,50.0,1,1,211.5,C,test,,0,Mrs,female_over_50,Greater than or equal to $50
+285,1,female,53.0,0,0,27.4458,C,test,,0,Mrs,female_over_50,Less than $50
+286,1,female,48.0,1,0,106.425,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+287,1,female,55.0,0,0,27.7208,C,test,,0,Mrs,female_over_50,Less than $50
+288,1,female,26.0,1,0,136.7792,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+289,1,female,64.0,1,1,26.55,S,test,,0,Mrs,female_over_50,Less than $50
+290,1,female,55.0,0,0,135.6333,C,test,,0,Mrs,female_over_50,Greater than or equal to $50
+291,1,female,58.0,0,1,512.3292,C,test,,0,Mrs,female_over_50,Greater than or equal to $50
+292,1,female,45.0,0,1,63.3583,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+293,1,female,59.0,2,0,51.4792,S,test,,0,Mrs,female_over_50,Greater than or equal to $50
+294,1,female,25.0,1,0,55.4417,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+295,1,female,45.0,0,1,59.4,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+296,1,female,54.0,1,1,81.8583,S,test,,0,Mrs,female_over_50,Greater than or equal to $50
+297,1,female,51.0,0,1,39.4,S,test,,0,Mrs,female_over_50,Less than $50
+298,1,female,18.0,1,0,60.0,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+299,1,female,48.0,1,1,79.2,C,test,,0,Mrs,female_under_50,Greater than or equal to $50
+300,1,female,37.0,1,0,90.0,Q,test,,0,Mrs,female_under_50,Greater than or equal to $50
+301,1,female,38.0,1,0,71.2833,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+302,1,female,35.0,1,0,53.1,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+303,1,female,43.208955223880594,1,0,146.5208,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+304,1,female,49.0,1,0,76.7292,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+305,1,female,22.0,1,0,66.6,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+306,1,female,43.208955223880594,0,1,55.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+307,1,female,44.0,0,0,27.7208,C,train,1,0,Mrs,female_under_50,Less than $50
+308,1,female,35.0,1,0,83.475,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+309,1,female,43.208955223880594,0,0,79.2,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+310,1,female,58.0,0,1,153.4625,S,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+311,1,female,19.0,1,0,91.0792,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+312,1,female,50.0,0,1,247.5208,C,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+313,1,female,17.0,1,0,108.9,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+314,1,female,40.0,1,1,134.5,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+315,1,female,43.208955223880594,1,0,133.65,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+316,1,female,60.0,1,0,75.25,C,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+317,1,female,43.208955223880594,1,0,82.1708,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+318,1,female,35.0,1,0,52.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+319,1,female,43.208955223880594,1,0,51.8625,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+320,1,female,35.0,1,0,90.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+321,1,female,25.0,1,2,151.55,S,train,0,0,Mrs,female_under_50,Greater than or equal to $50
+322,1,female,54.0,1,0,59.4,C,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+323,1,female,44.0,0,1,57.9792,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+324,1,female,39.0,1,1,79.65,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+325,1,female,53.0,2,0,51.4792,S,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+326,1,female,39.0,1,0,55.9,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+327,1,female,39.0,1,1,110.8833,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+328,1,female,52.0,1,0,78.2667,C,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+329,1,female,43.208955223880594,1,0,52.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+330,1,female,18.0,1,0,227.525,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+331,1,female,36.0,1,2,120.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+332,1,female,51.0,1,0,77.9583,S,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+333,1,female,43.0,0,1,211.3375,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+334,1,female,17.0,1,0,57.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+335,1,female,33.0,1,0,53.1,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+336,1,female,52.0,1,1,93.5,S,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+337,1,female,62.0,0,0,80.0,,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+338,1,female,43.208955223880594,1,0,89.1042,C,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+339,1,female,45.0,1,1,164.8667,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+340,1,female,48.0,0,0,25.9292,S,train,1,0,Mrs,female_under_50,Less than $50
+341,1,female,47.0,1,1,52.5542,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+342,1,female,56.0,0,1,83.1583,C,train,1,0,Mrs,female_over_50,Greater than or equal to $50
+343,2,female,24.0,1,0,27.7208,C,test,,0,Mrs,female_under_50,Less than $50
+344,2,female,30.0,0,0,13.0,S,test,,0,Mrs,female_under_50,Less than $50
+345,2,female,33.51851851851852,0,0,21.0,S,test,,0,Mrs,female_under_50,Less than $50
+346,2,female,29.0,1,0,26.0,S,test,,0,Mrs,female_under_50,Less than $50
+347,2,female,36.0,0,3,39.0,S,test,,0,Mrs,female_under_50,Less than $50
+348,2,female,60.0,1,0,26.0,S,test,,0,Mrs,female_over_50,Less than $50
+349,2,female,22.0,0,0,10.5,S,test,,0,Mrs,female_under_50,Less than $50
+350,2,female,45.0,0,2,30.0,S,test,,0,Mrs,female_under_50,Less than $50
+351,2,female,22.0,0,0,21.0,S,test,,0,Mrs,female_under_50,Less than $50
+352,2,female,29.0,1,0,26.0,S,test,,0,Mrs,female_under_50,Less than $50
+353,2,female,29.0,0,2,23.0,S,test,,0,Mrs,female_under_50,Less than $50
+354,2,female,48.0,0,2,36.75,S,test,,0,Mrs,female_under_50,Less than $50
+355,2,female,24.0,1,1,37.0042,C,test,,0,Mrs,female_under_50,Less than $50
+356,2,female,31.0,0,0,21.0,S,test,,0,Mrs,female_under_50,Less than $50
+357,2,female,14.0,1,0,30.0708,C,train,1,0,Mrs,female_under_50,Less than $50
+358,2,female,55.0,0,0,16.0,S,train,1,0,Mrs,female_over_50,Less than $50
+359,2,female,27.0,1,0,21.0,S,train,0,0,Mrs,female_under_50,Less than $50
+360,2,female,29.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+361,2,female,29.0,0,0,10.5,S,train,1,0,Mrs,female_under_50,Less than $50
+362,2,female,34.0,0,1,23.0,S,train,1,0,Mrs,female_under_50,Less than $50
+363,2,female,29.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+364,2,female,40.0,0,0,15.75,S,train,1,0,Mrs,female_under_50,Less than $50
+365,2,female,32.0,0,0,13.0,S,train,1,0,Mrs,female_under_50,Less than $50
+366,2,female,24.0,0,2,14.5,S,train,1,0,Mrs,female_under_50,Less than $50
+367,2,female,50.0,0,1,26.0,S,train,1,0,Mrs,female_over_50,Less than $50
+368,2,female,41.0,0,1,19.5,S,train,1,0,Mrs,female_under_50,Less than $50
+369,2,female,26.0,1,1,26.0,S,train,0,0,Mrs,female_under_50,Less than $50
+370,2,female,24.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+371,2,female,22.0,1,1,29.0,S,train,1,0,Mrs,female_under_50,Less than $50
+372,2,female,36.0,0,0,13.0,S,train,1,0,Mrs,female_under_50,Less than $50
+373,2,female,28.0,0,0,12.65,S,train,1,0,Mrs,female_under_50,Less than $50
+374,2,female,34.0,1,1,32.5,S,train,1,0,Mrs,female_under_50,Less than $50
+375,2,female,28.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+376,2,female,42.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+377,2,female,24.0,2,3,18.75,S,train,1,0,Mrs,female_under_50,Less than $50
+378,2,female,45.0,1,1,26.25,S,train,1,0,Mrs,female_under_50,Less than $50
+379,2,female,33.0,1,2,27.75,S,train,1,0,Mrs,female_under_50,Less than $50
+380,2,female,23.0,0,0,13.7917,C,train,1,0,Mrs,female_under_50,Less than $50
+381,2,female,33.0,0,2,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+382,2,female,34.0,0,0,10.5,S,train,1,0,Mrs,female_under_50,Less than $50
+383,2,female,36.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+384,2,female,19.0,1,0,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+385,2,female,24.0,2,1,27.0,S,train,1,0,Mrs,female_under_50,Less than $50
+386,2,female,22.0,1,2,41.5792,C,train,1,0,Mrs,female_under_50,Less than $50
+387,2,female,40.0,1,1,39.0,S,train,1,0,Mrs,female_under_50,Less than $50
+388,2,female,45.0,0,0,13.5,S,train,1,0,Mrs,female_under_50,Less than $50
+389,2,female,30.0,3,0,21.0,S,train,1,0,Mrs,female_under_50,Less than $50
+390,2,female,48.0,1,2,65.0,S,train,1,0,Mrs,female_under_50,Greater than or equal to $50
+391,2,female,57.0,0,0,10.5,S,train,0,0,Mrs,female_over_50,Less than $50
+392,2,female,54.0,1,3,23.0,S,train,1,0,Mrs,female_over_50,Less than $50
+393,2,female,31.0,1,1,26.25,S,train,1,0,Mrs,female_under_50,Less than $50
+394,2,female,44.0,1,0,26.0,S,train,0,0,Mrs,female_under_50,Less than $50
+395,2,female,42.0,0,0,13.0,S,train,1,0,Mrs,female_under_50,Less than $50
+396,2,female,28.0,1,0,24.0,C,train,1,0,Mrs,female_under_50,Less than $50
+397,2,female,25.0,0,1,26.0,S,train,1,0,Mrs,female_under_50,Less than $50
+398,3,female,47.0,1,0,7.0,S,test,,0,Mrs,female_under_50,Less than $50
+399,3,female,22.0,1,1,12.2875,S,test,,0,Mrs,female_under_50,Less than $50
+400,3,female,18.0,0,0,7.2292,C,test,,0,Mrs,female_under_50,Less than $50
+401,3,female,45.0,0,0,7.225,C,test,,0,Mrs,female_under_50,Less than $50
+402,3,female,33.0,1,2,20.575,S,test,,0,Mrs,female_under_50,Less than $50
+403,3,female,32.326530612244895,1,2,23.45,S,test,,0,Mrs,female_under_50,Less than $50
+404,3,female,36.0,0,2,15.9,S,test,,0,Mrs,female_under_50,Less than $50
+405,3,female,22.0,1,0,13.9,S,test,,0,Mrs,female_under_50,Less than $50
+406,3,female,16.0,1,1,8.5167,C,test,,0,Mrs,female_under_50,Less than $50
+407,3,female,32.326530612244895,0,4,25.4667,S,test,,0,Mrs,female_under_50,Less than $50
+408,3,female,36.0,0,2,12.1833,S,test,,0,Mrs,female_under_50,Less than $50
+409,3,female,26.0,0,2,13.775,S,test,,0,Mrs,female_under_50,Less than $50
+410,3,female,26.0,1,1,22.025,S,test,,0,Mrs,female_under_50,Less than $50
+411,3,female,32.326530612244895,0,0,8.1125,S,test,,0,Mrs,female_under_50,Less than $50
+412,3,female,32.326530612244895,0,2,15.2458,C,test,,0,Mrs,female_under_50,Less than $50
+413,3,female,32.326530612244895,1,0,14.4542,C,test,,0,Mrs,female_under_50,Less than $50
+414,3,female,45.0,1,0,14.1083,S,test,,0,Mrs,female_under_50,Less than $50
+415,3,female,19.0,1,1,15.7417,C,test,,0,Mrs,female_under_50,Less than $50
+416,3,female,38.0,0,0,7.2292,C,test,,0,Mrs,female_under_50,Less than $50
+417,3,female,30.0,1,0,15.55,S,test,,0,Mrs,female_under_50,Less than $50
+418,3,female,32.326530612244895,1,9,69.55,S,test,,0,Mrs,female_under_50,Greater than or equal to $50
+419,3,female,32.326530612244895,0,0,14.5,S,test,,0,Mrs,female_under_50,Less than $50
+420,3,female,19.0,1,0,16.1,S,test,,0,Mrs,female_under_50,Less than $50
+421,3,female,27.0,0,2,11.1333,S,train,1,0,Mrs,female_under_50,Less than $50
+422,3,female,31.0,1,0,18.0,S,train,0,0,Mrs,female_under_50,Less than $50
+423,3,female,32.326530612244895,0,0,7.225,C,train,1,0,Mrs,female_under_50,Less than $50
+424,3,female,38.0,1,5,31.3875,S,train,1,0,Mrs,female_under_50,Less than $50
+425,3,female,40.0,1,0,9.475,S,train,0,0,Mrs,female_under_50,Less than $50
+426,3,female,18.0,1,0,17.8,S,train,0,0,Mrs,female_under_50,Less than $50
+427,3,female,33.0,3,0,15.85,S,train,1,0,Mrs,female_under_50,Less than $50
+428,3,female,47.0,1,0,14.5,S,train,0,0,Mrs,female_under_50,Less than $50
+429,3,female,32.326530612244895,0,2,15.2458,C,train,0,0,Mrs,female_under_50,Less than $50
+430,3,female,24.0,1,0,15.85,S,train,1,0,Mrs,female_under_50,Less than $50
+431,3,female,45.0,1,4,27.9,S,train,0,0,Mrs,female_under_50,Less than $50
+432,3,female,32.326530612244895,1,0,15.5,Q,train,1,0,Mrs,female_under_50,Less than $50
+433,3,female,29.0,1,1,10.4625,S,train,0,0,Mrs,female_under_50,Less than $50
+434,3,female,41.0,0,2,20.2125,S,train,0,0,Mrs,female_under_50,Less than $50
+435,3,female,29.0,0,2,15.2458,C,train,1,0,Mrs,female_under_50,Less than $50
+436,3,female,35.0,1,1,20.25,S,train,1,0,Mrs,female_under_50,Less than $50
+437,3,female,31.0,1,1,20.525,S,train,1,0,Mrs,female_under_50,Less than $50
+438,3,female,32.326530612244895,1,0,16.1,S,train,1,0,Mrs,female_under_50,Less than $50
+439,3,female,45.0,0,1,14.4542,C,train,0,0,Mrs,female_under_50,Less than $50
+440,3,female,32.326530612244895,0,0,7.2292,C,train,1,0,Mrs,female_under_50,Less than $50
+441,3,female,24.0,0,2,16.7,S,train,1,0,Mrs,female_under_50,Less than $50
+442,3,female,32.326530612244895,0,0,8.05,S,train,0,0,Mrs,female_under_50,Less than $50
+443,3,female,28.0,1,1,14.4,S,train,0,0,Mrs,female_under_50,Less than $50
+444,3,female,32.326530612244895,1,0,16.1,S,train,1,0,Mrs,female_under_50,Less than $50
+445,3,female,63.0,0,0,9.5875,S,train,1,0,Mrs,female_over_50,Less than $50
+446,3,female,32.326530612244895,0,2,22.3583,C,train,1,0,Mrs,female_under_50,Less than $50
+447,3,female,36.0,1,0,17.4,S,train,1,0,Mrs,female_under_50,Less than $50
+448,3,female,29.0,0,4,21.075,S,train,0,0,Mrs,female_under_50,Less than $50
+449,3,female,32.326530612244895,1,0,14.4583,C,train,0,0,Mrs,female_under_50,Less than $50
+450,3,female,39.0,1,5,31.275,S,train,0,0,Mrs,female_under_50,Less than $50
+451,3,female,26.0,1,0,16.1,S,train,0,0,Mrs,female_under_50,Less than $50
+452,3,female,41.0,0,5,39.6875,S,train,0,0,Mrs,female_under_50,Less than $50
+453,3,female,32.0,1,1,15.5,Q,train,0,0,Mrs,female_under_50,Less than $50
+454,3,female,43.0,1,6,46.9,S,train,0,0,Mrs,female_under_50,Less than $50
+455,3,female,48.0,1,3,34.375,S,train,0,0,Mrs,female_under_50,Less than $50
+456,3,female,31.0,0,0,8.6833,S,train,1,0,Mrs,female_under_50,Less than $50
+457,3,female,30.0,1,1,24.15,S,train,0,0,Mrs,female_under_50,Less than $50
+458,3,female,27.0,0,1,12.475,S,train,1,0,Mrs,female_under_50,Less than $50
+459,3,female,15.0,1,0,14.4542,C,train,1,0,Mrs,female_under_50,Less than $50
+460,3,female,18.0,0,1,9.35,S,train,1,0,Mrs,female_under_50,Less than $50
+461,3,female,24.0,0,3,19.2583,C,train,1,0,Mrs,female_under_50,Less than $50
+462,3,female,39.0,0,5,29.125,Q,train,0,0,Mrs,female_under_50,Less than $50
+463,3,female,28.0,0,0,7.75,Q,test,,0,Ms,female_under_50,Less than $50
+464,2,female,28.0,0,0,13.0,S,train,1,0,Ms,female_under_50,Less than $50
+465,1,female,33.0,0,0,86.5,S,train,1,0,the Countess,female_under_50,Greater than or equal to $50
+466,1,male,70.0,1,1,71.0,S,train,0,0,Capt,male_over_17,Greater than or equal to $50
+467,1,male,53.0,0,0,28.5,C,test,,0,Col,male_over_17,Less than $50
+468,1,male,47.0,1,0,227.525,C,test,,0,Col,male_over_17,Greater than or equal to $50
+469,1,male,56.0,0,0,35.5,C,train,1,0,Col,male_over_17,Less than $50
+470,1,male,60.0,0,0,26.55,S,train,0,0,Col,male_over_17,Less than $50
+471,1,male,40.0,0,0,27.7208,C,train,0,0,Don,male_over_17,Less than $50
+472,1,male,53.0,1,1,81.8583,S,test,,0,Dr,male_over_17,Greater than or equal to $50
+473,1,male,44.0,2,0,90.0,Q,train,0,0,Dr,male_over_17,Greater than or equal to $50
+474,1,male,32.0,0,0,30.5,C,train,1,0,Dr,male_over_17,Less than $50
+475,1,male,50.0,2,0,133.65,S,train,1,0,Dr,male_over_17,Greater than or equal to $50
+476,1,male,44.75,0,0,39.6,C,train,0,0,Dr,male_over_17,Less than $50
+477,2,male,54.0,0,0,14.0,S,train,0,0,Dr,male_over_17,Less than $50
+478,2,male,23.0,0,0,10.5,S,train,0,0,Dr,male_over_17,Less than $50
+479,1,male,38.0,0,0,0.0,S,train,0,0,Jonkheer,male_over_17,Less than $50
+480,1,male,52.0,0,0,30.5,S,train,1,0,Major,male_over_17,Less than $50
+481,1,male,45.0,0,0,26.55,S,train,0,0,Major,male_over_17,Less than $50
+482,1,male,13.0,2,2,262.375,C,test,,0,Master,male_under_17,Greater than or equal to $50
+483,1,male,6.0,0,2,134.5,C,test,,0,Master,male_under_17,Greater than or equal to $50
+484,1,male,0.92,1,2,151.55,S,train,1,0,Master,male_under_17,Greater than or equal to $50
+485,1,male,4.0,0,2,81.8583,S,train,1,0,Master,male_under_17,Greater than or equal to $50
+486,1,male,11.0,1,2,120.0,S,train,1,0,Master,male_under_17,Greater than or equal to $50
+487,2,male,2.0,1,1,23.0,S,test,,0,Master,male_under_17,Less than $50
+488,2,male,8.0,0,2,32.5,S,test,,0,Master,male_under_17,Less than $50
+489,2,male,0.83,0,2,29.0,S,train,1,0,Master,male_under_17,Less than $50
+490,2,male,1.0,2,1,39.0,S,train,1,0,Master,male_under_17,Less than $50
+491,2,male,3.0,1,1,26.0,S,train,1,0,Master,male_under_17,Less than $50
+492,2,male,2.0,1,1,26.0,S,train,1,0,Master,male_under_17,Less than $50
+493,2,male,3.0,1,1,18.75,S,train,1,0,Master,male_under_17,Less than $50
+494,2,male,8.0,1,1,36.75,S,train,1,0,Master,male_under_17,Less than $50
+495,2,male,0.67,1,1,14.5,S,train,1,0,Master,male_under_17,Less than $50
+496,2,male,1.0,0,2,37.0042,C,train,1,0,Master,male_under_17,Less than $50
+497,2,male,0.83,1,1,18.75,S,train,1,0,Master,male_under_17,Less than $50
+498,3,male,9.0,0,1,3.1708,S,test,,0,Master,male_under_17,Less than $50
+499,3,male,10.0,4,1,29.125,Q,test,,0,Master,male_under_17,Less than $50
+500,3,male,6.0,1,1,15.2458,C,test,,0,Master,male_under_17,Less than $50
+501,3,male,13.0,4,2,31.3875,S,test,,0,Master,male_under_17,Less than $50
+502,3,male,7.0,1,1,15.2458,C,test,,0,Master,male_under_17,Less than $50
+503,3,male,11.5,1,1,14.5,S,test,,0,Master,male_under_17,Less than $50
+504,3,male,0.33,0,2,14.4,S,test,,0,Master,male_under_17,Less than $50
+505,3,male,6.09,1,2,23.45,S,test,,0,Master,male_under_17,Less than $50
+506,3,male,0.75,1,1,13.775,S,test,,0,Master,male_under_17,Less than $50
+507,3,male,0.83,0,1,9.35,S,test,,0,Master,male_under_17,Less than $50
+508,3,male,6.09,0,0,7.2292,C,test,,0,Master,male_under_17,Less than $50
+509,3,male,6.09,1,1,14.5,S,test,,0,Master,male_under_17,Less than $50
+510,3,male,14.5,8,2,69.55,S,test,,0,Master,male_under_17,Greater than or equal to $50
+511,3,male,5.0,4,2,31.3875,S,test,,0,Master,male_under_17,Less than $50
+512,3,male,6.0,3,1,21.075,S,test,,0,Master,male_under_17,Less than $50
+513,3,male,13.0,0,2,20.25,S,test,,0,Master,male_under_17,Less than $50
+514,3,male,6.09,1,1,22.3583,C,test,,0,Master,male_under_17,Less than $50
+515,3,male,2.0,3,1,21.075,S,train,0,0,Master,male_under_17,Less than $50
+516,3,male,2.0,4,1,29.125,Q,train,0,0,Master,male_under_17,Less than $50
+517,3,male,7.0,4,1,39.6875,S,train,0,0,Master,male_under_17,Less than $50
+518,3,male,11.0,5,2,46.9,S,train,0,0,Master,male_under_17,Less than $50
+519,3,male,4.0,3,2,27.9,S,train,0,0,Master,male_under_17,Less than $50
+520,3,male,6.09,1,1,15.2458,C,train,1,0,Master,male_under_17,Less than $50
+521,3,male,12.0,1,0,11.2417,C,train,1,0,Master,male_under_17,Less than $50
+522,3,male,6.09,8,2,69.55,S,train,0,0,Master,male_under_17,Greater than or equal to $50
+523,3,male,1.0,4,1,39.6875,S,train,0,0,Master,male_under_17,Less than $50
+524,3,male,9.0,0,2,20.525,S,train,1,0,Master,male_under_17,Less than $50
+525,3,male,4.0,4,1,29.125,Q,train,0,0,Master,male_under_17,Less than $50
+526,3,male,6.09,3,1,25.4667,S,train,0,0,Master,male_under_17,Less than $50
+527,3,male,9.0,4,2,31.3875,S,train,0,0,Master,male_under_17,Less than $50
+528,3,male,3.0,4,2,31.3875,S,train,1,0,Master,male_under_17,Less than $50
+529,3,male,7.0,4,1,29.125,Q,train,0,0,Master,male_under_17,Less than $50
+530,3,male,3.0,1,1,15.9,S,train,1,0,Master,male_under_17,Less than $50
+531,3,male,1.0,5,2,46.9,S,train,0,0,Master,male_under_17,Less than $50
+532,3,male,9.0,5,2,46.9,S,train,0,0,Master,male_under_17,Less than $50
+533,3,male,9.0,1,1,15.9,S,train,1,0,Master,male_under_17,Less than $50
+534,3,male,6.09,1,1,15.2458,C,train,1,0,Master,male_under_17,Less than $50
+535,3,male,6.0,0,1,12.475,S,train,1,0,Master,male_under_17,Less than $50
+536,3,male,8.0,4,1,29.125,Q,train,0,0,Master,male_under_17,Less than $50
+537,3,male,1.0,1,2,20.575,S,train,1,0,Master,male_under_17,Less than $50
+538,3,male,0.42,0,1,8.5167,C,train,1,0,Master,male_under_17,Less than $50
+539,3,male,10.0,3,2,27.9,S,train,0,0,Master,male_under_17,Less than $50
+540,3,male,2.0,4,1,39.6875,S,train,0,0,Master,male_under_17,Less than $50
+541,3,male,4.0,4,2,31.275,S,train,0,0,Master,male_under_17,Less than $50
+542,3,male,4.0,1,1,11.1333,S,train,1,0,Master,male_under_17,Less than $50
+543,1,male,46.0,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+544,1,male,55.0,1,0,59.4,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+545,1,male,21.0,0,1,61.3792,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+546,1,male,41.0,0,0,30.5,S,test,,0,Mr,male_over_17,Less than $50
+547,1,male,30.0,1,0,57.75,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+548,1,male,41.45075757575758,0,0,26.55,S,test,,0,Mr,male_over_17,Less than $50
+549,1,male,45.0,0,0,29.7,C,test,,0,Mr,male_over_17,Less than $50
+550,1,male,24.0,1,0,60.0,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+551,1,male,47.0,0,0,42.4,S,test,,0,Mr,male_over_17,Less than $50
+552,1,male,31.0,0,0,28.5375,C,test,,0,Mr,male_over_17,Less than $50
+553,1,male,28.5,0,0,27.7208,C,test,,0,Mr,male_over_17,Less than $50
+554,1,male,32.5,0,0,211.5,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+555,1,male,67.0,1,0,221.7792,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+556,1,male,49.0,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+557,1,male,25.0,0,0,26.0,C,test,,0,Mr,male_over_17,Less than $50
+558,1,male,36.0,0,0,75.2417,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+559,1,male,61.0,1,3,262.375,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+560,1,male,42.0,0,0,26.55,S,test,,0,Mr,male_over_17,Less than $50
+561,1,male,41.45075757575758,0,0,51.8625,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+562,1,male,41.45075757575758,0,0,26.55,S,test,,0,Mr,male_over_17,Less than $50
+563,1,male,42.0,0,0,26.55,S,test,,0,Mr,male_over_17,Less than $50
+564,1,male,48.0,0,0,50.4958,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+565,1,male,54.0,1,0,55.4417,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+566,1,male,37.0,1,1,83.1583,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+567,1,male,41.45075757575758,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+568,1,male,41.45075757575758,0,0,25.7417,C,test,,0,Mr,male_over_17,Less than $50
+569,1,male,42.0,0,0,42.5,S,test,,0,Mr,male_over_17,Less than $50
+570,1,male,57.0,1,1,164.8667,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+571,1,male,39.0,1,0,71.2833,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+572,1,male,64.0,1,0,75.25,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+573,1,male,45.0,1,1,134.5,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+574,1,male,41.0,1,0,51.8625,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+575,1,male,27.0,1,0,136.7792,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+576,1,male,41.45075757575758,0,0,0.0,S,test,,0,Mr,male_over_17,Less than $50
+577,1,male,46.0,0,0,75.2417,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+578,1,male,24.0,1,0,82.2667,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+579,1,male,41.45075757575758,0,0,39.6,S,test,,0,Mr,male_over_17,Less than $50
+580,1,male,30.0,0,0,45.5,S,test,,0,Mr,male_over_17,Less than $50
+581,1,male,30.0,1,2,151.55,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+582,1,male,55.0,1,1,93.5,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+583,1,male,57.0,1,0,146.5208,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+584,1,male,33.0,0,0,26.55,S,test,,0,Mr,male_over_17,Less than $50
+585,1,male,46.0,0,0,79.2,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+586,1,male,39.0,0,0,29.7,C,test,,0,Mr,male_over_17,Less than $50
+587,1,male,30.0,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+588,1,male,50.0,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+589,1,male,49.0,0,0,0.0,S,test,,0,Mr,male_over_17,Less than $50
+590,1,male,55.0,0,0,50.0,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+591,1,male,23.0,0,0,93.5,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+592,1,male,17.0,0,0,47.1,S,test,,0,Mr,male_over_17,Less than $50
+593,1,male,43.0,1,0,27.7208,C,test,,0,Mr,male_over_17,Less than $50
+594,1,male,50.0,1,1,211.5,C,test,,0,Mr,male_over_17,Greater than or equal to $50
+595,1,male,54.0,0,0,51.8625,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+596,1,male,28.0,0,0,35.5,S,train,1,0,Mr,male_over_17,Less than $50
+597,1,male,19.0,3,2,263.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+598,1,male,28.0,1,0,82.1708,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+599,1,male,42.0,1,0,52.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+600,1,male,65.0,0,1,61.9792,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+601,1,male,41.45075757575758,0,0,35.5,S,train,1,0,Mr,male_over_17,Less than $50
+602,1,male,45.0,1,0,83.475,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+603,1,male,41.45075757575758,0,0,27.7208,C,train,0,0,Mr,male_over_17,Less than $50
+604,1,male,28.0,0,0,47.1,S,train,0,0,Mr,male_over_17,Less than $50
+605,1,male,46.0,1,0,61.175,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+606,1,male,71.0,0,0,34.6542,C,train,0,0,Mr,male_over_17,Less than $50
+607,1,male,23.0,0,1,63.3583,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+608,1,male,21.0,0,1,77.2875,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+609,1,male,47.0,0,0,52.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+610,1,male,24.0,0,1,247.5208,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+611,1,male,54.0,0,1,77.2875,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+612,1,male,37.0,1,0,53.1,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+613,1,male,24.0,0,0,79.2,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+614,1,male,51.0,0,1,61.3792,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+615,1,male,41.45075757575758,0,0,25.925,S,train,0,0,Mr,male_over_17,Less than $50
+616,1,male,61.0,0,0,33.5,S,train,0,0,Mr,male_over_17,Less than $50
+617,1,male,56.0,0,0,30.6958,C,train,0,0,Mr,male_over_17,Less than $50
+618,1,male,41.45075757575758,0,0,50.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+619,1,male,45.0,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+620,1,male,40.0,0,0,31.0,C,train,1,0,Mr,male_over_17,Less than $50
+621,1,male,38.0,1,0,90.0,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+622,1,male,37.0,1,1,52.5542,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+623,1,male,62.0,0,0,26.55,S,train,0,0,Mr,male_over_17,Less than $50
+624,1,male,52.0,1,1,79.65,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+625,1,male,40.0,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+626,1,male,41.45075757575758,0,0,31.0,S,train,0,0,Mr,male_over_17,Less than $50
+627,1,male,37.0,0,1,29.7,C,train,0,0,Mr,male_over_17,Less than $50
+628,1,male,41.45075757575758,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+629,1,male,41.45075757575758,0,0,27.7208,C,train,0,0,Mr,male_over_17,Less than $50
+630,1,male,41.45075757575758,0,0,30.5,S,train,1,0,Mr,male_over_17,Less than $50
+631,1,male,45.5,0,0,28.5,S,train,0,0,Mr,male_over_17,Less than $50
+632,1,male,38.0,0,1,153.4625,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+633,1,male,29.0,1,0,66.6,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+634,1,male,45.0,0,0,35.5,S,train,0,0,Mr,male_over_17,Less than $50
+635,1,male,41.45075757575758,0,0,35.0,S,train,0,0,Mr,male_over_17,Less than $50
+636,1,male,25.0,1,0,55.4417,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+637,1,male,22.0,0,0,135.6333,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+638,1,male,27.0,0,2,211.5,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+639,1,male,36.0,1,2,120.0,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+640,1,male,28.0,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+641,1,male,50.0,1,0,55.9,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+642,1,male,64.0,1,4,263.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+643,1,male,34.0,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+644,1,male,30.0,0,0,27.75,C,train,0,0,Mr,male_over_17,Less than $50
+645,1,male,49.0,1,0,89.1042,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+646,1,male,65.0,0,0,26.55,S,train,0,0,Mr,male_over_17,Less than $50
+647,1,male,48.0,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+648,1,male,47.0,0,0,38.5,S,train,0,0,Mr,male_over_17,Less than $50
+649,1,male,56.0,0,0,26.55,S,train,0,0,Mr,male_over_17,Less than $50
+650,1,male,41.45075757575758,0,0,52.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+651,1,male,25.0,1,0,91.0792,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+652,1,male,58.0,0,0,29.7,C,train,0,0,Mr,male_over_17,Less than $50
+653,1,male,55.0,0,0,30.5,S,train,0,0,Mr,male_over_17,Less than $50
+654,1,male,71.0,0,0,49.5042,C,train,0,0,Mr,male_over_17,Less than $50
+655,1,male,18.0,1,0,108.9,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+656,1,male,41.45075757575758,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+657,1,male,36.0,0,0,26.2875,S,train,1,0,Mr,male_over_17,Less than $50
+658,1,male,47.0,0,0,34.0208,S,train,0,0,Mr,male_over_17,Less than $50
+659,1,male,41.45075757575758,0,0,221.7792,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+660,1,male,50.0,1,0,106.425,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+661,1,male,64.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+662,1,male,17.0,0,2,110.8833,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+663,1,male,62.0,0,0,26.55,S,train,0,0,Mr,male_over_17,Less than $50
+664,1,male,41.45075757575758,0,0,227.525,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+665,1,male,36.0,0,0,26.3875,S,train,1,0,Mr,male_over_17,Less than $50
+666,1,male,36.0,0,0,40.125,C,train,0,0,Mr,male_over_17,Less than $50
+667,1,male,60.0,1,1,79.2,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+668,1,male,41.45075757575758,0,0,42.4,S,train,0,0,Mr,male_over_17,Less than $50
+669,1,male,35.0,0,0,26.55,C,train,1,0,Mr,male_over_17,Less than $50
+670,1,male,27.0,0,0,30.5,S,train,1,0,Mr,male_over_17,Less than $50
+671,1,male,42.0,1,0,52.5542,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+672,1,male,61.0,0,0,32.3208,S,train,0,0,Mr,male_over_17,Less than $50
+673,1,male,80.0,0,0,30.0,S,train,1,0,Mr,male_over_17,Less than $50
+674,1,male,41.45075757575758,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+675,1,male,48.0,1,0,76.7292,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+676,1,male,58.0,0,2,113.275,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+677,1,male,47.0,0,0,25.5875,S,train,0,0,Mr,male_over_17,Less than $50
+678,1,male,31.0,1,0,52.0,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+679,1,male,36.0,0,1,512.3292,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+680,1,male,27.0,0,0,76.7292,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+681,1,male,31.0,1,0,57.0,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+682,1,male,49.0,1,1,110.8833,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+683,1,male,35.0,0,0,26.2875,S,train,1,0,Mr,male_over_17,Less than $50
+684,1,male,42.0,0,0,26.2875,S,train,1,0,Mr,male_over_17,Less than $50
+685,1,male,41.45075757575758,0,0,26.55,S,train,0,0,Mr,male_over_17,Less than $50
+686,1,male,48.0,1,0,52.0,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+687,1,male,27.0,1,0,53.1,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+688,1,male,35.0,0,0,512.3292,C,train,1,0,Mr,male_over_17,Greater than or equal to $50
+689,1,male,41.45075757575758,0,0,30.0,S,train,1,0,Mr,male_over_17,Less than $50
+690,1,male,36.0,1,0,78.85,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+691,1,male,19.0,1,0,53.1,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+692,1,male,29.0,0,0,30.0,S,train,0,0,Mr,male_over_17,Less than $50
+693,1,male,46.0,0,0,79.2,C,train,0,0,Mr,male_over_17,Greater than or equal to $50
+694,1,male,41.45075757575758,0,0,30.6958,C,train,0,0,Mr,male_over_17,Less than $50
+695,1,male,39.0,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+696,1,male,41.45075757575758,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+697,1,male,41.45075757575758,0,0,29.7,C,train,1,0,Mr,male_over_17,Less than $50
+698,1,male,51.0,0,0,26.55,S,train,1,0,Mr,male_over_17,Less than $50
+699,1,male,31.0,0,0,50.4958,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+700,1,male,33.0,0,0,5.0,S,train,0,0,Mr,male_over_17,Less than $50
+701,1,male,26.0,0,0,30.0,C,train,1,0,Mr,male_over_17,Less than $50
+702,2,male,62.0,0,0,9.6875,Q,test,,0,Mr,male_over_17,Less than $50
+703,2,male,26.0,1,1,29.0,S,test,,0,Mr,male_over_17,Less than $50
+704,2,male,63.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+705,2,male,35.0,0,0,12.35,Q,test,,0,Mr,male_over_17,Less than $50
+706,2,male,50.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+707,2,male,24.0,2,0,31.5,S,test,,0,Mr,male_over_17,Less than $50
+708,2,male,27.0,0,0,15.0333,C,test,,0,Mr,male_over_17,Less than $50
+709,2,male,32.346715328467155,0,0,15.5792,C,test,,0,Mr,male_over_17,Less than $50
+710,2,male,32.0,0,0,13.5,S,test,,0,Mr,male_over_17,Less than $50
+711,2,male,30.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+712,2,male,32.346715328467155,0,0,10.7083,Q,test,,0,Mr,male_over_17,Less than $50
+713,2,male,27.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+714,2,male,18.5,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+715,2,male,41.0,0,0,15.0458,C,test,,0,Mr,male_over_17,Less than $50
+716,2,male,42.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+717,2,male,26.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+718,2,male,28.0,0,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+719,2,male,30.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+720,2,male,40.0,0,0,16.0,S,test,,0,Mr,male_over_17,Less than $50
+721,2,male,40.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+722,2,male,34.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+723,2,male,61.0,0,0,12.35,Q,test,,0,Mr,male_over_17,Less than $50
+724,2,male,23.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+725,2,male,25.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+726,2,male,24.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+727,2,male,17.0,0,0,73.5,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+728,2,male,36.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+729,2,male,14.0,0,0,65.0,S,test,,0,Mr,male_under_17,Greater than or equal to $50
+730,2,male,42.0,1,1,32.5,S,test,,0,Mr,male_over_17,Less than $50
+731,2,male,30.0,0,0,12.7375,C,test,,0,Mr,male_over_17,Less than $50
+732,2,male,28.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+733,2,male,40.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+734,2,male,30.0,1,0,21.0,S,test,,0,Mr,male_over_17,Less than $50
+735,2,male,22.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+736,2,male,32.346715328467155,0,0,15.0458,C,test,,0,Mr,male_over_17,Less than $50
+737,2,male,43.0,0,1,21.0,S,test,,0,Mr,male_over_17,Less than $50
+738,2,male,19.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+739,2,male,22.0,2,0,31.5,S,test,,0,Mr,male_over_17,Less than $50
+740,2,male,26.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+741,2,male,29.0,1,0,26.0,S,test,,0,Mr,male_over_17,Less than $50
+742,2,male,21.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+743,2,male,32.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+744,2,male,25.0,0,0,31.5,S,test,,0,Mr,male_over_17,Less than $50
+745,2,male,18.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+746,2,male,26.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+747,2,male,24.0,0,0,13.5,S,test,,0,Mr,male_over_17,Less than $50
+748,2,male,25.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+749,2,male,18.0,0,0,73.5,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+750,2,male,49.0,1,2,65.0,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+751,2,male,29.0,0,0,13.8583,C,test,,0,Mr,male_over_17,Less than $50
+752,2,male,21.0,1,0,11.5,S,test,,0,Mr,male_over_17,Less than $50
+753,2,male,44.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+754,2,male,21.0,0,0,11.5,S,test,,0,Mr,male_over_17,Less than $50
+755,2,male,32.346715328467155,0,0,12.875,S,test,,0,Mr,male_over_17,Less than $50
+756,2,male,57.0,0,0,13.0,S,test,,0,Mr,male_over_17,Less than $50
+757,2,male,47.0,0,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+758,2,male,38.0,1,0,21.0,S,test,,0,Mr,male_over_17,Less than $50
+759,2,male,20.0,0,0,13.8625,C,test,,0,Mr,male_over_17,Less than $50
+760,2,male,23.0,1,0,10.5,S,test,,0,Mr,male_over_17,Less than $50
+761,2,male,32.346715328467155,0,0,13.0,S,train,1,0,Mr,male_over_17,Less than $50
+762,2,male,35.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+763,2,male,34.0,0,0,13.0,S,train,1,0,Mr,male_over_17,Less than $50
+764,2,male,66.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+765,2,male,32.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+766,2,male,21.0,0,0,73.5,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+767,2,male,34.0,1,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+768,2,male,29.0,1,0,21.0,S,train,0,0,Mr,male_over_17,Less than $50
+769,2,male,21.0,2,0,73.5,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+770,2,male,32.5,1,0,30.0708,C,train,0,0,Mr,male_over_17,Less than $50
+771,2,male,25.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+772,2,male,23.0,0,0,15.0458,C,train,0,0,Mr,male_over_17,Less than $50
+773,2,male,18.0,0,0,11.5,S,train,0,0,Mr,male_over_17,Less than $50
+774,2,male,19.0,1,1,36.75,S,train,0,0,Mr,male_over_17,Less than $50
+775,2,male,36.5,0,2,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+776,2,male,30.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+777,2,male,32.346715328467155,0,0,15.05,C,train,0,0,Mr,male_over_17,Less than $50
+778,2,male,19.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+779,2,male,30.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+780,2,male,42.0,1,0,27.0,S,train,0,0,Mr,male_over_17,Less than $50
+781,2,male,30.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+782,2,male,27.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+783,2,male,19.0,0,0,10.5,S,train,1,0,Mr,male_over_17,Less than $50
+784,2,male,18.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+785,2,male,59.0,0,0,13.5,S,train,0,0,Mr,male_over_17,Less than $50
+786,2,male,24.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+787,2,male,44.0,1,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+788,2,male,19.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+789,2,male,33.0,0,0,12.275,S,train,0,0,Mr,male_over_17,Less than $50
+790,2,male,29.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+791,2,male,36.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+792,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+793,2,male,42.0,0,0,13.0,S,train,1,0,Mr,male_over_17,Less than $50
+794,2,male,36.0,0,0,12.875,C,train,0,0,Mr,male_over_17,Less than $50
+795,2,male,30.0,1,0,24.0,C,train,0,0,Mr,male_over_17,Less than $50
+796,2,male,43.0,1,1,26.25,S,train,0,0,Mr,male_over_17,Less than $50
+797,2,male,28.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+798,2,male,25.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+799,2,male,36.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+800,2,male,29.0,1,0,27.7208,C,train,0,0,Mr,male_over_17,Less than $50
+801,2,male,18.0,0,0,73.5,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+802,2,male,46.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+803,2,male,34.0,1,0,21.0,S,train,0,0,Mr,male_over_17,Less than $50
+804,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+805,2,male,30.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+806,2,male,31.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+807,2,male,36.0,1,2,27.75,S,train,0,0,Mr,male_over_17,Less than $50
+808,2,male,48.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+809,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+810,2,male,34.0,1,0,21.0,S,train,0,0,Mr,male_over_17,Less than $50
+811,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+812,2,male,23.0,2,1,11.5,S,train,0,0,Mr,male_over_17,Less than $50
+813,2,male,32.0,1,0,26.0,S,train,1,0,Mr,male_over_17,Less than $50
+814,2,male,32.346715328467155,0,0,13.8625,C,train,1,0,Mr,male_over_17,Less than $50
+815,2,male,27.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+816,2,male,28.0,0,0,13.5,S,train,0,0,Mr,male_over_17,Less than $50
+817,2,male,62.0,0,0,10.5,S,train,1,0,Mr,male_over_17,Less than $50
+818,2,male,54.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+819,2,male,47.0,0,0,15.0,S,train,0,0,Mr,male_over_17,Less than $50
+820,2,male,37.0,1,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+821,2,male,26.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+822,2,male,31.0,1,1,26.25,S,train,0,0,Mr,male_over_17,Less than $50
+823,2,male,24.0,2,0,73.5,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+824,2,male,23.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+825,2,male,32.0,2,0,73.5,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+826,2,male,25.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+827,2,male,70.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+828,2,male,31.0,0,0,13.0,S,train,1,0,Mr,male_over_17,Less than $50
+829,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+830,2,male,60.0,1,1,39.0,S,train,0,0,Mr,male_over_17,Less than $50
+831,2,male,25.0,1,2,41.5792,C,train,0,0,Mr,male_over_17,Less than $50
+832,2,male,52.0,0,0,13.5,S,train,0,0,Mr,male_over_17,Less than $50
+833,2,male,39.0,0,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+834,2,male,52.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+835,2,male,34.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+836,2,male,50.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+837,2,male,25.0,1,0,26.0,S,train,0,0,Mr,male_over_17,Less than $50
+838,2,male,32.346715328467155,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+839,2,male,23.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+840,2,male,23.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+841,2,male,18.0,0,0,11.5,S,train,0,0,Mr,male_over_17,Less than $50
+842,2,male,16.0,0,0,26.0,S,train,0,0,Mr,male_under_17,Less than $50
+843,2,male,39.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+844,2,male,34.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+845,2,male,39.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+846,2,male,35.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+847,2,male,31.0,1,1,37.0042,C,train,0,0,Mr,male_over_17,Less than $50
+848,2,male,16.0,0,0,10.5,S,train,0,0,Mr,male_under_17,Less than $50
+849,2,male,21.0,1,0,11.5,S,train,0,0,Mr,male_over_17,Less than $50
+850,2,male,24.0,0,0,13.0,S,train,0,0,Mr,male_over_17,Less than $50
+851,2,male,28.0,0,0,10.5,S,train,0,0,Mr,male_over_17,Less than $50
+852,3,male,34.5,0,0,7.8292,Q,test,,0,Mr,male_over_17,Less than $50
+853,3,male,27.0,0,0,8.6625,S,test,,0,Mr,male_over_17,Less than $50
+854,3,male,14.0,0,0,9.225,S,test,,0,Mr,male_under_17,Less than $50
+855,3,male,21.0,2,0,24.15,S,test,,0,Mr,male_over_17,Less than $50
+856,3,male,28.318910256410255,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+857,3,male,21.0,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+858,3,male,50.0,1,0,14.5,S,test,,0,Mr,male_over_17,Less than $50
+859,3,male,22.5,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+860,3,male,28.318910256410255,2,0,21.6792,C,test,,0,Mr,male_over_17,Less than $50
+861,3,male,18.5,0,0,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+862,3,male,25.0,0,0,9.5,S,test,,0,Mr,male_over_17,Less than $50
+863,3,male,28.318910256410255,0,0,56.4958,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+864,3,male,39.0,0,1,13.4167,C,test,,0,Mr,male_over_17,Less than $50
+865,3,male,41.0,0,0,7.85,S,test,,0,Mr,male_over_17,Less than $50
+866,3,male,25.0,0,0,7.925,S,test,,0,Mr,male_over_17,Less than $50
+867,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+868,3,male,35.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+869,3,male,25.0,0,0,7.65,S,test,,0,Mr,male_over_17,Less than $50
+870,3,male,28.318910256410255,1,0,16.1,S,test,,0,Mr,male_over_17,Less than $50
+871,3,male,17.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+872,3,male,18.0,0,0,7.75,S,test,,0,Mr,male_over_17,Less than $50
+873,3,male,21.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+874,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+875,3,male,28.318910256410255,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+876,3,male,28.318910256410255,1,0,14.4542,C,test,,0,Mr,male_over_17,Less than $50
+877,3,male,28.318910256410255,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+878,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+879,3,male,25.0,0,0,7.7958,S,test,,0,Mr,male_over_17,Less than $50
+880,3,male,29.0,0,0,7.925,S,test,,0,Mr,male_over_17,Less than $50
+881,3,male,33.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+882,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+883,3,male,26.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+884,3,male,28.0,0,0,22.525,S,test,,0,Mr,male_over_17,Less than $50
+885,3,male,21.0,0,0,7.8208,Q,test,,0,Mr,male_over_17,Less than $50
+886,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+887,3,male,28.318910256410255,0,0,8.7125,S,test,,0,Mr,male_over_17,Less than $50
+888,3,male,18.0,1,0,14.4542,C,test,,0,Mr,male_over_17,Less than $50
+889,3,male,28.318910256410255,0,0,6.4375,C,test,,0,Mr,male_over_17,Less than $50
+890,3,male,28.318910256410255,1,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+891,3,male,28.0,0,0,7.25,S,test,,0,Mr,male_over_17,Less than $50
+892,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+893,3,male,22.0,0,0,7.7958,S,test,,0,Mr,male_over_17,Less than $50
+894,3,male,24.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+895,3,male,32.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+896,3,male,28.318910256410255,1,0,6.4375,C,test,,0,Mr,male_over_17,Less than $50
+897,3,male,43.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+898,3,male,24.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+899,3,male,26.5,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+900,3,male,40.0,1,6,46.9,S,test,,0,Mr,male_over_17,Less than $50
+901,3,male,31.0,3,0,18.0,S,test,,0,Mr,male_over_17,Less than $50
+902,3,male,22.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+903,3,male,28.318910256410255,0,0,7.8958,C,test,,0,Mr,male_over_17,Less than $50
+904,3,male,60.5,0,0,,S,test,,0,Mr,male_over_17,
+905,3,male,24.0,0,0,7.55,S,test,,0,Mr,male_over_17,Less than $50
+906,3,male,28.318910256410255,0,0,7.0,S,test,,0,Mr,male_over_17,Less than $50
+907,3,male,18.0,2,2,34.375,S,test,,0,Mr,male_over_17,Less than $50
+908,3,male,28.318910256410255,0,0,7.55,S,test,,0,Mr,male_over_17,Less than $50
+909,3,male,27.0,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+910,3,male,23.0,1,0,13.9,S,test,,0,Mr,male_over_17,Less than $50
+911,3,male,28.318910256410255,0,0,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+912,3,male,40.0,1,5,31.3875,S,test,,0,Mr,male_over_17,Less than $50
+913,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+914,3,male,17.0,2,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+915,3,male,33.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+916,3,male,25.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+917,3,male,32.0,0,0,22.525,S,test,,0,Mr,male_over_17,Less than $50
+918,3,male,28.318910256410255,0,0,7.05,S,test,,0,Mr,male_over_17,Less than $50
+919,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+920,3,male,21.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+921,3,male,21.0,0,0,7.7958,S,test,,0,Mr,male_over_17,Less than $50
+922,3,male,23.0,0,0,7.7958,S,test,,0,Mr,male_over_17,Less than $50
+923,3,male,40.5,0,0,15.1,S,test,,0,Mr,male_over_17,Less than $50
+924,3,male,21.0,1,0,6.4958,S,test,,0,Mr,male_over_17,Less than $50
+925,3,male,28.318910256410255,0,0,7.8792,Q,test,,0,Mr,male_over_17,Less than $50
+926,3,male,20.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+927,3,male,20.0,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+928,3,male,28.318910256410255,0,0,7.8875,S,test,,0,Mr,male_over_17,Less than $50
+929,3,male,20.0,0,0,7.925,S,test,,0,Mr,male_over_17,Less than $50
+930,3,male,24.0,0,0,9.325,S,test,,0,Mr,male_over_17,Less than $50
+931,3,male,32.5,0,0,9.5,S,test,,0,Mr,male_over_17,Less than $50
+932,3,male,28.318910256410255,0,0,7.55,S,test,,0,Mr,male_over_17,Less than $50
+933,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+934,3,male,28.0,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+935,3,male,21.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+936,3,male,36.5,1,0,17.4,S,test,,0,Mr,male_over_17,Less than $50
+937,3,male,21.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+938,3,male,28.318910256410255,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+939,3,male,28.318910256410255,0,0,7.55,S,test,,0,Mr,male_over_17,Less than $50
+940,3,male,17.0,0,0,8.6625,S,test,,0,Mr,male_over_17,Less than $50
+941,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+942,3,male,28.318910256410255,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+943,3,male,36.0,0,0,7.25,S,test,,0,Mr,male_over_17,Less than $50
+944,3,male,28.318910256410255,0,0,7.25,S,test,,0,Mr,male_over_17,Less than $50
+945,3,male,28.318910256410255,0,0,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+946,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+947,3,male,28.318910256410255,0,0,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+948,3,male,36.0,0,0,9.5,S,test,,0,Mr,male_over_17,Less than $50
+949,3,male,26.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+950,3,male,28.318910256410255,2,0,21.6792,C,test,,0,Mr,male_over_17,Less than $50
+951,3,male,29.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+952,3,male,32.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+953,3,male,24.0,0,0,8.6625,S,test,,0,Mr,male_over_17,Less than $50
+954,3,male,18.0,0,0,8.6625,S,test,,0,Mr,male_over_17,Less than $50
+955,3,male,22.0,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+956,3,male,28.318910256410255,0,0,7.575,S,test,,0,Mr,male_over_17,Less than $50
+957,3,male,27.0,0,0,7.8542,S,test,,0,Mr,male_over_17,Less than $50
+958,3,male,26.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+959,3,male,25.0,0,0,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+960,3,male,23.0,0,0,7.05,S,test,,0,Mr,male_over_17,Less than $50
+961,3,male,28.318910256410255,0,0,7.225,C,test,,0,Mr,male_over_17,Less than $50
+962,3,male,27.0,0,0,7.8958,S,test,,0,Mr,male_over_17,Less than $50
+963,3,male,39.0,0,2,7.2292,C,test,,0,Mr,male_over_17,Less than $50
+964,3,male,32.0,0,0,7.5792,S,test,,0,Mr,male_over_17,Less than $50
+965,3,male,28.318910256410255,1,9,69.55,S,test,,0,Mr,male_over_17,Greater than or equal to $50
+966,3,male,28.318910256410255,0,0,7.8792,S,test,,0,Mr,male_over_17,Less than $50
+967,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+968,3,male,27.0,0,0,8.6625,S,test,,0,Mr,male_over_17,Less than $50
+969,3,male,28.318910256410255,1,0,14.4583,C,test,,0,Mr,male_over_17,Less than $50
+970,3,male,28.318910256410255,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+971,3,male,26.0,0,0,7.8792,Q,test,,0,Mr,male_over_17,Less than $50
+972,3,male,24.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+973,3,male,21.0,0,0,7.75,Q,test,,0,Mr,male_over_17,Less than $50
+974,3,male,29.0,3,1,22.025,S,test,,0,Mr,male_over_17,Less than $50
+975,3,male,24.0,0,0,7.25,Q,test,,0,Mr,male_over_17,Less than $50
+976,3,male,22.0,0,0,7.775,S,test,,0,Mr,male_over_17,Less than $50
+977,3,male,31.0,0,0,7.7333,Q,test,,0,Mr,male_over_17,Less than $50
+978,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+979,3,male,38.5,0,0,7.25,S,test,,0,Mr,male_over_17,Less than $50
+980,3,male,28.318910256410255,0,0,8.05,S,test,,0,Mr,male_over_17,Less than $50
+981,3,male,22.0,1,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+982,3,male,35.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+983,3,male,28.318910256410255,0,0,8.4583,Q,train,0,0,Mr,male_over_17,Less than $50
+984,3,male,20.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+985,3,male,39.0,1,5,31.275,S,train,0,0,Mr,male_over_17,Less than $50
+986,3,male,28.318910256410255,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+987,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+988,3,male,28.318910256410255,0,0,7.2292,C,train,1,0,Mr,male_over_17,Less than $50
+989,3,male,21.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+990,3,male,28.318910256410255,0,0,7.8958,C,train,0,0,Mr,male_over_17,Less than $50
+991,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+992,3,male,28.318910256410255,1,0,15.5,Q,train,0,0,Mr,male_over_17,Less than $50
+993,3,male,28.318910256410255,2,0,21.6792,C,train,0,0,Mr,male_over_17,Less than $50
+994,3,male,21.0,0,0,7.8,S,train,0,0,Mr,male_over_17,Less than $50
+995,3,male,28.5,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+996,3,male,22.0,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+997,3,male,19.0,0,0,8.1583,S,train,0,0,Mr,male_over_17,Less than $50
+998,3,male,26.0,2,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+999,3,male,26.0,1,0,14.4542,C,train,0,0,Mr,male_over_17,Less than $50
+1000,3,male,32.0,0,0,56.4958,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+1001,3,male,25.0,0,0,7.65,S,train,0,0,Mr,male_over_17,Less than $50
+1002,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1003,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1004,3,male,22.0,0,0,9.0,S,train,0,0,Mr,male_over_17,Less than $50
+1005,3,male,29.0,0,0,9.5,S,train,1,0,Mr,male_over_17,Less than $50
+1006,3,male,16.0,1,3,34.375,S,train,0,0,Mr,male_under_17,Less than $50
+1007,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1008,3,male,24.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1009,3,male,29.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1010,3,male,20.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1011,3,male,26.0,1,2,20.575,S,train,0,0,Mr,male_over_17,Less than $50
+1012,3,male,59.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1013,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1014,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1015,3,male,33.0,0,0,8.6542,S,train,0,0,Mr,male_over_17,Less than $50
+1016,3,male,37.0,2,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1017,3,male,28.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1018,3,male,28.318910256410255,0,0,7.775,S,train,1,0,Mr,male_over_17,Less than $50
+1019,3,male,38.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1020,3,male,22.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1021,3,male,21.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1022,3,male,70.5,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1023,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1024,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1025,3,male,24.0,0,0,7.1417,S,train,1,0,Mr,male_over_17,Less than $50
+1026,3,male,45.0,0,0,6.975,S,train,0,0,Mr,male_over_17,Less than $50
+1027,3,male,33.0,0,0,7.8958,C,train,0,0,Mr,male_over_17,Less than $50
+1028,3,male,20.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1029,3,male,16.0,0,0,9.2167,S,train,0,0,Mr,male_under_17,Less than $50
+1030,3,male,19.0,0,0,6.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1031,3,male,27.0,0,0,7.7958,S,train,1,0,Mr,male_over_17,Less than $50
+1032,3,male,55.5,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1033,3,male,40.5,0,2,14.5,S,train,0,0,Mr,male_over_17,Less than $50
+1034,3,male,28.318910256410255,0,0,7.3125,S,train,0,0,Mr,male_over_17,Less than $50
+1035,3,male,30.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1036,3,male,28.318910256410255,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1037,3,male,44.0,0,1,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1038,3,male,26.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1039,3,male,17.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1040,3,male,28.0,0,0,56.4958,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+1041,3,male,21.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1042,3,male,18.0,1,1,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1043,3,male,36.0,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+1044,3,male,40.0,1,1,15.5,Q,train,0,0,Mr,male_over_17,Less than $50
+1045,3,male,36.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1046,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1047,3,male,42.0,0,1,8.4042,S,train,0,0,Mr,male_over_17,Less than $50
+1048,3,male,28.0,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1049,3,male,28.318910256410255,8,2,69.55,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+1050,3,male,34.0,0,0,6.4958,S,train,0,0,Mr,male_over_17,Less than $50
+1051,3,male,45.5,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1052,3,male,18.0,0,0,8.05,S,train,1,0,Mr,male_over_17,Less than $50
+1053,3,male,32.0,1,0,15.85,S,train,0,0,Mr,male_over_17,Less than $50
+1054,3,male,26.0,0,0,18.7875,C,train,1,0,Mr,male_over_17,Less than $50
+1055,3,male,24.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1056,3,male,22.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1057,3,male,28.318910256410255,1,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1058,3,male,16.0,0,0,8.05,S,train,1,0,Mr,male_under_17,Less than $50
+1059,3,male,51.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1060,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1061,3,male,22.0,0,0,9.35,S,train,0,0,Mr,male_over_17,Less than $50
+1062,3,male,20.5,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1063,3,male,29.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1064,3,male,22.0,0,0,7.125,S,train,0,0,Mr,male_over_17,Less than $50
+1065,3,male,30.0,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1066,3,male,28.318910256410255,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1067,3,male,30.0,1,0,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1068,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1069,3,male,16.0,4,1,39.6875,S,train,0,0,Mr,male_under_17,Less than $50
+1070,3,male,25.0,1,0,7.775,S,train,1,0,Mr,male_over_17,Less than $50
+1071,3,male,25.0,0,0,0.0,S,train,1,0,Mr,male_over_17,Less than $50
+1072,3,male,65.0,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1073,3,male,28.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1074,3,male,16.0,0,0,9.5,S,train,0,0,Mr,male_under_17,Less than $50
+1075,3,male,19.0,0,0,8.05,S,train,1,0,Mr,male_over_17,Less than $50
+1076,3,male,33.0,0,0,8.6625,C,train,0,0,Mr,male_over_17,Less than $50
+1077,3,male,30.0,0,0,9.5,S,train,1,0,Mr,male_over_17,Less than $50
+1078,3,male,22.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1079,3,male,24.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1080,3,male,23.5,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1081,3,male,28.318910256410255,2,0,23.25,Q,train,1,0,Mr,male_over_17,Less than $50
+1082,3,male,19.0,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+1083,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1084,3,male,28.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1085,3,male,22.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1086,3,male,27.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1087,3,male,28.318910256410255,8,2,69.55,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+1088,3,male,61.0,0,0,6.2375,S,train,0,0,Mr,male_over_17,Less than $50
+1089,3,male,16.0,2,0,18.0,S,train,0,0,Mr,male_under_17,Less than $50
+1090,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1091,3,male,45.0,0,0,8.05,S,train,1,0,Mr,male_over_17,Less than $50
+1092,3,male,42.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1093,3,male,23.0,0,0,9.225,S,train,0,0,Mr,male_over_17,Less than $50
+1094,3,male,15.0,1,1,7.2292,C,train,0,0,Mr,male_under_17,Less than $50
+1095,3,male,25.0,1,0,17.8,S,train,0,0,Mr,male_over_17,Less than $50
+1096,3,male,28.318910256410255,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1097,3,male,28.0,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1098,3,male,40.0,1,4,27.9,S,train,0,0,Mr,male_over_17,Less than $50
+1099,3,male,35.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1100,3,male,28.318910256410255,1,0,15.5,Q,train,0,0,Mr,male_over_17,Less than $50
+1101,3,male,30.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1102,3,male,18.0,1,0,6.4958,S,train,0,0,Mr,male_over_17,Less than $50
+1103,3,male,19.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1104,3,male,20.0,0,0,4.0125,C,train,0,0,Mr,male_over_17,Less than $50
+1105,3,male,19.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1106,3,male,32.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1107,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1108,3,male,28.318910256410255,0,0,7.7292,Q,train,0,0,Mr,male_over_17,Less than $50
+1109,3,male,21.0,0,0,7.7958,S,train,1,0,Mr,male_over_17,Less than $50
+1110,3,male,28.0,2,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1111,3,male,22.0,0,0,7.7958,S,train,0,0,Mr,male_over_17,Less than $50
+1112,3,male,39.0,0,0,7.925,S,train,1,0,Mr,male_over_17,Less than $50
+1113,3,male,26.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1114,3,male,28.0,1,0,15.85,S,train,0,0,Mr,male_over_17,Less than $50
+1115,3,male,51.0,0,0,7.75,S,train,0,0,Mr,male_over_17,Less than $50
+1116,3,male,21.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1117,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1118,3,male,28.318910256410255,0,0,6.8583,Q,train,0,0,Mr,male_over_17,Less than $50
+1119,3,male,44.0,0,0,7.925,S,train,1,0,Mr,male_over_17,Less than $50
+1120,3,male,28.318910256410255,0,0,7.8958,C,train,0,0,Mr,male_over_17,Less than $50
+1121,3,male,21.0,0,0,7.7333,Q,train,0,0,Mr,male_over_17,Less than $50
+1122,3,male,29.0,0,0,7.875,S,train,0,0,Mr,male_over_17,Less than $50
+1123,3,male,18.0,1,1,20.2125,S,train,0,0,Mr,male_over_17,Less than $50
+1124,3,male,28.318910256410255,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1125,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1126,3,male,32.0,0,0,8.05,S,train,1,0,Mr,male_over_17,Less than $50
+1127,3,male,17.0,0,0,7.125,S,train,0,0,Mr,male_over_17,Less than $50
+1128,3,male,20.0,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1129,3,male,25.0,1,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1130,3,male,28.318910256410255,0,0,8.1125,S,train,1,0,Mr,male_over_17,Less than $50
+1131,3,male,28.318910256410255,1,0,19.9667,S,train,0,0,Mr,male_over_17,Less than $50
+1132,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1133,3,male,29.0,0,0,7.8958,C,train,1,0,Mr,male_over_17,Less than $50
+1134,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1135,3,male,34.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1136,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1137,3,male,38.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1138,3,male,28.318910256410255,0,0,7.725,Q,train,0,0,Mr,male_over_17,Less than $50
+1139,3,male,28.318910256410255,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1140,3,male,38.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1141,3,male,29.0,1,0,7.0458,S,train,0,0,Mr,male_over_17,Less than $50
+1142,3,male,22.0,0,0,7.5208,S,train,0,0,Mr,male_over_17,Less than $50
+1143,3,male,50.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1144,3,male,30.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1145,3,male,28.318910256410255,1,0,19.9667,S,train,0,0,Mr,male_over_17,Less than $50
+1146,3,male,21.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1147,3,male,21.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1148,3,male,28.318910256410255,0,0,14.4583,C,train,0,0,Mr,male_over_17,Less than $50
+1149,3,male,28.318910256410255,0,0,15.1,S,train,0,0,Mr,male_over_17,Less than $50
+1150,3,male,24.0,0,0,7.7958,S,train,0,0,Mr,male_over_17,Less than $50
+1151,3,male,17.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1152,3,male,28.0,0,0,22.525,S,train,0,0,Mr,male_over_17,Less than $50
+1153,3,male,26.0,0,0,56.4958,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+1154,3,male,29.0,0,0,7.75,Q,train,1,0,Mr,male_over_17,Less than $50
+1155,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1156,3,male,24.0,0,0,7.4958,S,train,0,0,Mr,male_over_17,Less than $50
+1157,3,male,28.318910256410255,0,0,24.15,Q,train,0,0,Mr,male_over_17,Less than $50
+1158,3,male,32.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1159,3,male,22.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1160,3,male,28.318910256410255,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1161,3,male,28.318910256410255,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1162,3,male,40.5,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1163,3,male,39.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1164,3,male,28.318910256410255,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1165,3,male,17.0,1,1,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1166,3,male,28.318910256410255,0,0,14.5,S,train,0,0,Mr,male_over_17,Less than $50
+1167,3,male,33.0,1,1,20.525,S,train,0,0,Mr,male_over_17,Less than $50
+1168,3,male,28.318910256410255,0,0,7.8292,Q,train,0,0,Mr,male_over_17,Less than $50
+1169,3,male,22.0,0,0,7.225,C,train,1,0,Mr,male_over_17,Less than $50
+1170,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1171,3,male,40.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1172,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1173,3,male,24.0,2,0,24.15,S,train,0,0,Mr,male_over_17,Less than $50
+1174,3,male,19.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1175,3,male,28.318910256410255,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1176,3,male,32.0,0,0,7.8542,S,train,1,0,Mr,male_over_17,Less than $50
+1177,3,male,16.0,0,0,8.05,S,train,0,0,Mr,male_under_17,Less than $50
+1178,3,male,19.0,0,0,14.5,S,train,0,0,Mr,male_over_17,Less than $50
+1179,3,male,32.0,0,0,7.925,S,train,1,0,Mr,male_over_17,Less than $50
+1180,3,male,28.318910256410255,0,0,8.7125,C,train,0,0,Mr,male_over_17,Less than $50
+1181,3,male,22.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1182,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1183,3,male,35.0,0,0,7.125,S,train,0,0,Mr,male_over_17,Less than $50
+1184,3,male,47.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1185,3,male,36.0,1,1,24.15,S,train,0,0,Mr,male_over_17,Less than $50
+1186,3,male,49.0,0,0,0.0,S,train,0,0,Mr,male_over_17,Less than $50
+1187,3,male,28.318910256410255,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1188,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1189,3,male,44.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1190,3,male,36.0,1,0,15.55,S,train,0,0,Mr,male_over_17,Less than $50
+1191,3,male,30.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1192,3,male,28.318910256410255,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1193,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1194,3,male,35.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1195,3,male,34.0,1,1,14.4,S,train,0,0,Mr,male_over_17,Less than $50
+1196,3,male,27.0,1,0,14.4542,C,train,0,0,Mr,male_over_17,Less than $50
+1197,3,male,20.0,1,1,15.7417,C,train,1,0,Mr,male_over_17,Less than $50
+1198,3,male,21.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1199,3,male,21.0,0,0,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1200,3,male,26.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1201,3,male,28.318910256410255,0,0,7.7333,Q,train,0,0,Mr,male_over_17,Less than $50
+1202,3,male,51.0,0,0,7.0542,S,train,0,0,Mr,male_over_17,Less than $50
+1203,3,male,32.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1204,3,male,28.318910256410255,1,0,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1205,3,male,20.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1206,3,male,28.318910256410255,0,0,56.4958,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+1207,3,male,19.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1208,3,male,28.318910256410255,0,0,7.55,S,train,0,0,Mr,male_over_17,Less than $50
+1209,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1210,3,male,21.0,0,0,8.4333,S,train,0,0,Mr,male_over_17,Less than $50
+1211,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1212,3,male,40.0,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1213,3,male,36.0,0,0,7.4958,S,train,0,0,Mr,male_over_17,Less than $50
+1214,3,male,20.0,1,0,7.925,S,train,1,0,Mr,male_over_17,Less than $50
+1215,3,male,28.318910256410255,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1216,3,male,43.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1217,3,male,18.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1218,3,male,24.5,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1219,3,male,20.0,0,0,9.225,S,train,0,0,Mr,male_over_17,Less than $50
+1220,3,male,14.0,5,2,46.9,S,train,0,0,Mr,male_under_17,Less than $50
+1221,3,male,14.0,4,1,39.6875,S,train,0,0,Mr,male_under_17,Less than $50
+1222,3,male,19.0,0,0,10.1708,S,train,0,0,Mr,male_over_17,Less than $50
+1223,3,male,18.0,0,0,7.7958,S,train,0,0,Mr,male_over_17,Less than $50
+1224,3,male,28.318910256410255,0,0,56.4958,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+1225,3,male,25.0,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1226,3,male,44.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1227,3,male,42.0,0,0,7.65,S,train,0,0,Mr,male_over_17,Less than $50
+1228,3,male,25.0,0,0,7.7417,Q,train,0,0,Mr,male_over_17,Less than $50
+1229,3,male,26.0,1,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1230,3,male,29.0,0,0,9.4833,S,train,0,0,Mr,male_over_17,Less than $50
+1231,3,male,19.0,0,0,7.65,S,train,0,0,Mr,male_over_17,Less than $50
+1232,3,male,28.318910256410255,0,0,15.5,Q,train,0,0,Mr,male_over_17,Less than $50
+1233,3,male,33.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1234,3,male,17.0,1,0,7.0542,S,train,0,0,Mr,male_over_17,Less than $50
+1235,3,male,20.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1236,3,male,11.0,0,0,18.7875,C,train,0,0,Mr,male_under_17,Less than $50
+1237,3,male,28.5,0,0,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1238,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1239,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1240,3,male,24.0,1,0,16.1,S,train,0,0,Mr,male_over_17,Less than $50
+1241,3,male,31.0,0,0,7.925,S,train,1,0,Mr,male_over_17,Less than $50
+1242,3,male,16.0,1,1,20.25,S,train,0,0,Mr,male_under_17,Less than $50
+1243,3,male,31.0,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1244,3,male,33.0,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1245,3,male,23.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1246,3,male,28.0,0,0,7.7958,S,train,0,0,Mr,male_over_17,Less than $50
+1247,3,male,34.0,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1248,3,male,28.318910256410255,0,0,14.5,S,train,0,0,Mr,male_over_17,Less than $50
+1249,3,male,41.0,0,0,7.125,S,train,0,0,Mr,male_over_17,Less than $50
+1250,3,male,20.0,0,0,7.2292,C,train,1,0,Mr,male_over_17,Less than $50
+1251,3,male,16.0,0,0,7.775,S,train,0,0,Mr,male_under_17,Less than $50
+1252,3,male,28.318910256410255,1,0,24.15,Q,train,0,0,Mr,male_over_17,Less than $50
+1253,3,male,32.0,0,0,8.3625,S,train,0,0,Mr,male_over_17,Less than $50
+1254,3,male,24.0,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1255,3,male,48.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1256,3,male,28.318910256410255,0,0,7.225,C,train,0,0,Mr,male_over_17,Less than $50
+1257,3,male,18.0,0,0,7.75,S,train,0,0,Mr,male_over_17,Less than $50
+1258,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1259,3,male,28.318910256410255,0,0,7.7375,Q,train,0,0,Mr,male_over_17,Less than $50
+1260,3,male,28.318910256410255,1,2,23.45,S,train,0,0,Mr,male_over_17,Less than $50
+1261,3,male,25.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1262,3,male,25.0,0,0,7.25,S,train,0,0,Mr,male_over_17,Less than $50
+1263,3,male,28.318910256410255,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1264,3,male,25.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1265,3,male,30.0,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1266,3,male,27.0,0,0,6.975,S,train,1,0,Mr,male_over_17,Less than $50
+1267,3,male,31.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1268,3,male,26.0,0,0,7.8875,S,train,0,0,Mr,male_over_17,Less than $50
+1269,3,male,39.0,0,0,24.15,S,train,0,0,Mr,male_over_17,Less than $50
+1270,3,male,30.5,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1271,3,male,43.0,0,0,6.45,S,train,0,0,Mr,male_over_17,Less than $50
+1272,3,male,27.0,0,0,8.6625,S,train,1,0,Mr,male_over_17,Less than $50
+1273,3,male,28.318910256410255,0,0,6.95,Q,train,0,0,Mr,male_over_17,Less than $50
+1274,3,male,28.318910256410255,0,0,56.4958,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+1275,3,male,28.318910256410255,0,0,7.75,Q,train,1,0,Mr,male_over_17,Less than $50
+1276,3,male,28.318910256410255,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1277,3,male,23.0,0,0,7.8542,S,train,0,0,Mr,male_over_17,Less than $50
+1278,3,male,18.0,0,0,8.3,S,train,0,0,Mr,male_over_17,Less than $50
+1279,3,male,21.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1280,3,male,28.318910256410255,0,0,8.05,S,train,0,0,Mr,male_over_17,Less than $50
+1281,3,male,32.0,0,0,56.4958,S,train,1,0,Mr,male_over_17,Greater than or equal to $50
+1282,3,male,20.0,0,0,7.925,S,train,0,0,Mr,male_over_17,Less than $50
+1283,3,male,34.5,0,0,6.4375,C,train,0,0,Mr,male_over_17,Less than $50
+1284,3,male,17.0,0,0,8.6625,S,train,0,0,Mr,male_over_17,Less than $50
+1285,3,male,42.0,0,0,7.55,S,train,0,0,Mr,male_over_17,Less than $50
+1286,3,male,28.318910256410255,8,2,69.55,S,train,0,0,Mr,male_over_17,Greater than or equal to $50
+1287,3,male,35.0,0,0,7.8958,C,train,0,0,Mr,male_over_17,Less than $50
+1288,3,male,74.0,0,0,7.775,S,train,0,0,Mr,male_over_17,Less than $50
+1289,3,male,28.318910256410255,0,0,7.2292,C,train,0,0,Mr,male_over_17,Less than $50
+1290,3,male,41.0,2,0,14.1083,S,train,0,0,Mr,male_over_17,Less than $50
+1291,3,male,28.318910256410255,0,0,9.5,S,train,0,0,Mr,male_over_17,Less than $50
+1292,3,male,26.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1293,3,male,47.0,0,0,9.0,S,train,0,0,Mr,male_over_17,Less than $50
+1294,3,male,20.0,0,0,9.8458,S,train,0,0,Mr,male_over_17,Less than $50
+1295,3,male,19.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1296,3,male,28.318910256410255,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1297,3,male,33.0,0,0,7.8958,S,train,0,0,Mr,male_over_17,Less than $50
+1298,3,male,25.0,0,0,7.05,S,train,0,0,Mr,male_over_17,Less than $50
+1299,3,male,32.0,0,0,7.75,Q,train,0,0,Mr,male_over_17,Less than $50
+1300,2,male,30.0,1,1,26.0,S,test,,0,Rev,male_over_17,Less than $50
+1301,2,male,41.0,0,0,13.0,S,test,,0,Rev,male_over_17,Less than $50
+1302,2,male,42.0,0,0,13.0,S,train,0,0,Rev,male_over_17,Less than $50
+1303,2,male,51.0,0,0,12.525,S,train,0,0,Rev,male_over_17,Less than $50
+1304,2,male,54.0,1,0,26.0,S,train,0,0,Rev,male_over_17,Less than $50
+1305,2,male,57.0,0,0,12.35,Q,train,0,0,Rev,male_over_17,Less than $50
+1306,2,male,28.0,0,1,33.0,S,train,0,0,Rev,male_over_17,Less than $50
+1307,2,male,27.0,0,0,13.0,S,train,0,0,Rev,male_over_17,Less than $50
+1308,1,male,49.0,1,0,56.9292,C,train,1,0,Sir,male_over_17,Greater than or equal to $50
